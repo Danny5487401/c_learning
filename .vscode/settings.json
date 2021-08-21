@@ -3,6 +3,7 @@
         "string": "cpp",
         "vector": "cpp",
         "algorithm": "cpp",
-        "__config": "cpp"
+        "__config": "cpp",
+        "stdio.h": "c"
     }
 }
