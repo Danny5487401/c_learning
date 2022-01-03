@@ -5,9 +5,9 @@
 
 ![](.linear_list_images/linear_list_idea.png)
 
-##线性表的存储结构
+## 线性表的存储结构
 
 ![](.linear_list_images/sequenced_list.png)
 
-###顺序表的静态实现
+### 顺序表的静态实现
 ![](.linear_list_images/static_sequenced_code.png)
