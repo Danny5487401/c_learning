@@ -8,13 +8,14 @@
 
 ## 第三章 数据结构与算法
 
-- 1. 线性表
-- 2. B 树
-- 3. 排序算法
-- [4. 图](dataStructure/04_graph/graph.md)
+- 1 线性表
+- 2 B 树
+- 3 排序算法
+  - 
+- [4 图](dataStructure/04_graph/graph.md)
   - 4.1 BFS (Breadth First Search 广度优先遍历）
   - 4.2 DFS (Depth First Search 深度优先搜索)
   - 4.3 单源最短路径算法(Floyd(弗洛伊德)算法)
 - [Clang及LLVM介绍](Clang.md)
 
-注意 ⚠️：**_中文注释乱码设置 vscode:files.autoGuessEncoding 项的值改为 true 即可_**
+注意 ⚠️：**_中文注释乱码设置 vscode:files.autoGuessEncoding 项的值改为 true 即可，数据结构中推荐编码格式为GBK_**

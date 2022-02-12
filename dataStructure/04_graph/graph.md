@@ -9,7 +9,8 @@
 有向边：若从顶点Vi到Vj的边有方向，称这条边为有向边，也称为弧（Arc），用<Vi, Vj>来表示，其中Vi称为弧尾（Tail），Vj称为弧头（Head）
 
 ## 种类
-[](./graph_class.png)
+
+[](.graph_images/graph_class.png)
 
 - 无向图（Undirected graphs）：图中任意两个顶点的边都是无向边。
 
@@ -31,8 +32,9 @@
 
 ## 边和顶点的两个重要关系
 ![](.graph_images/relation_between_dot_n_edge.png)
-邻接(adjacency)：邻接是两个顶点之间的一种关系。如果图包含边(u,v)，则称顶点u与顶点v邻接。当然，在无向图中，这也意味着顶点与顶点邻接。
-关联(incidence)：关联是边和顶点之间的关系。在有向图中，边(u,v)从顶点u开始关联到v，或者相反，从v关联到u。注意，有向图中，边不一定是对称的，有去无回是完全有可能的。细化这个概念，就有了顶点的入度(in-degree)和出度(out-degree)。无向图中，顶点的度就是与顶点相关联的边的数目，没有入度和出度。在有向图中，我们以下图为例，顶点10有2个入度，但是没有从10指向其它顶点的边，因此顶点10的出度为0
+
+- 邻接(adjacency)：邻接是两个顶点之间的一种关系。如果图包含边(u,v)，则称顶点u与顶点v邻接。当然，在无向图中，这也意味着顶点与顶点邻接。
+- 关联(incidence)：关联是边和顶点之间的关系。在有向图中，边(u,v)从顶点u开始关联到v，或者相反，从v关联到u。注意，有向图中，边不一定是对称的，有去无回是完全有可能的。细化这个概念，就有了顶点的入度(in-degree)和出度(out-degree)。无向图中，顶点的度就是与顶点相关联的边的数目，没有入度和出度。在有向图中，我们以下图为例，顶点10有2个入度，但是没有从10指向其它顶点的边，因此顶点10的出度为0
 
 ## 图的基本术语
 度：与特定顶点相连接的边数；
@@ -65,16 +67,53 @@ AOV网（Activity On Vertex Network ）：在有向图中若以顶点表示活�
 
 AOE网（Activity On Edge Network）：在带权有向图中若以顶点表示事件，有向边表示活动，边上的权值表示该活动持续的时间
 
+
+## 图的存储
+![img.png](.graph_images/storage_structure.png)
+
+1. 邻接矩阵-->顺序存储（数组）
+
+![img.png](.graph_images/adjacent_array.png)
+
+- 无向图 A的度，可以直接看行或则列，都为3   
+- 有向图 A的出度看行中非0元素，为1，入度为2，度为出+入（1+2）
+- 时间复杂度都是O(n)或则O(|V|)
+  
+![img.png](.graph_images/adjacent_net.png)
+  
+2. 邻接表-->顺序存储+链式存储(数组➕链表)
+
+![img.png](.graph_images/adjacent_table.png) 
+![img.png](.graph_images/adjacent_table2.png)
+
+以上两种结构对比
+
+![img.png](.graph_images/adjacent_array_vs_table.png)
+
+
+3. 十字链表-->适合处理有向图解决入度的问题
+
+![img.png](.graph_images/adjacent_table3.png)
+![img.png](.graph_images/ten_table.png)
+
+4. 邻接多重表-->适合处理无向图解决数据冗余的问题   
+
+![img.png](.graph_images/adjacent_table4.png)
+![img.png](.graph_images/adjacent_table5.png)
+- 边链表的节点数是｜E｜
+- 空间复杂度是O(|V|+|E|);邻接表O(|V|+2|E|)；
+
 ## 图的遍历：BFS和DFS算法
 DFS和BFS是很多图算法的基础。不过，要获得效率更高的图的算法，深度优先算法DFS使用较多。
-### BFS (Breadth First Search 广度优先遍历）
+### BFS (Breadth First Search 广度优先遍历）-->树的层次遍历
+![img.png](.graph_images/bfs.png)
 
 广度优先遍历（Breadth First Search，简称BFS），又称为广度优先搜索。这种搜索方法可以用队列实现。
 
 遍历思想：首先，从图的某个顶点v0出发，访问了v0之后，依次访问与v0相邻的未被访问的顶点，然后分别从这些顶点出发，广度优先遍历，直至所有的顶点都被访问完。
 
 
-### DFS (Depth First Search 深度优先搜索)
+### DFS (Depth First Search 深度优先搜索)-->树的先序遍历
 深度优先遍历（Depth First Search，简称DFS），也被称为深度优先搜索。这种搜索方法可以用栈来实现，类似老鼠走迷宫。
 
 遍历思想：首先从图中某个顶点v0出发，访问此顶点，然后依次从v相邻的顶点出发深度优先遍历，直至图中所有与v路径相通的顶点都被访问了；若此时尚有顶点未被访问，则从中选一个顶点作为起始点，重复上述过程，直到所有的顶点都被访问
