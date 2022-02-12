@@ -112,11 +112,30 @@ DFS和BFS是很多图算法的基础。不过，要获得效率更高的图的�
 
 遍历思想：首先，从图的某个顶点v0出发，访问了v0之后，依次访问与v0相邻的未被访问的顶点，然后分别从这些顶点出发，广度优先遍历，直至所有的顶点都被访问完。
 
+#### 非连通图处理
+![img.png](.graph_images/bfs2.png)
+
+#### 效率分析
+空间复杂度  
+![img.png](.graph_images/bfs_productive.png)
+
+时间复杂度  
+![img.png](.graph_images/bfs_productive2.png)
+
+#### bfs生成树
+![img.png](.graph_images/bfs_tree.png)
 
 ### DFS (Depth First Search 深度优先搜索)-->树的先序遍历
+![img.png](.graph_images/dfs.png)
 深度优先遍历（Depth First Search，简称DFS），也被称为深度优先搜索。这种搜索方法可以用栈来实现，类似老鼠走迷宫。
 
-遍历思想：首先从图中某个顶点v0出发，访问此顶点，然后依次从v相邻的顶点出发深度优先遍历，直至图中所有与v路径相通的顶点都被访问了；若此时尚有顶点未被访问，则从中选一个顶点作为起始点，重复上述过程，直到所有的顶点都被访问
+遍历思想：首先从图中某个顶点v0出发，访问此顶点，然后依次从v相邻的顶点出发深度优先遍历，直至图中所有与v路径相通的顶点都被访问了；
+若此时尚有顶点未被访问，则从中选一个顶点作为起始点，重复上述过程，直到所有的顶点都被访问
+
+#### 效率分析
+![img.png](.graph_images/dfs_productive.png)
+#### dfs生成树
+![img.png](.graph_images/dfs_tree.png)
 
 
 ## 单源最短路径算法
