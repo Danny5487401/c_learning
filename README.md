@@ -3,9 +3,31 @@
 参考 c 语言技术网https://www.freecplus.net/dad5c75aa6214160a1937cc09ed33135.html
 
 ## 第一章 c 语言学习代码
-- 1 基本结构编译过程
+- 1  基本结构编译过程
+- 2  定义变量并初始化
+- 3  运算符
+- 4  main函数的参数
+- 5  结构体
+- 6  字符串
+- 7  指针
+- 8  类型转换
+- 9  函数
+- 10 头文件
+- 11 排序sort
+
 
 ## 第二章 c++语言学习代码
+- 1  函数重载
+- 2  类和对象
+- 3  引用
+- 4  运算符重载
+- 5  STL（Standard Template Library, 标准模板库）- string类
+- 6  STL（Standard Template Library, 标准模板库）- vector容器
+- 7  类的继承
+- 8  类的多态
+- 9  套接字socket
+- 10 信号量
+- 11 静态库和动态库
 
 ## 第三章 数据结构与算法
 
