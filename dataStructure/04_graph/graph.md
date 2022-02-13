@@ -138,5 +138,42 @@ DFS和BFS是很多图算法的基础。不过，要获得效率更高的图的�
 ![img.png](.graph_images/dfs_tree.png)
 
 
-## 单源最短路径算法
+## 最小生成树(MST)
+![](.graph_images/MST.png)
+- 无向连通图：生成树是指包含全部定点的的极小连通子图
+
+案例
+![](.graph_images/mst_example.png)
+
+### Prim算法
+![](.graph_images/prim_mst.png)
+![](.graph_images/prim_productive.png)
+- 生成树不唯一，但是权值之和唯一
+
+### Kruskal算法
+![](.graph_images/kruskal_mst.png)
+
+两者对比
+![](.graph_images/prim_vs_kruskal.png)
+
+## 最短路径
+![](.graph_images/minimum_distance.png)
+![](.graph_images/min_distance_algr.png)
+
 最短路径指两顶点之间经过的边上权值之和最少的路径，并且称路径上的第一个顶点为源点，最后一个顶点为终点。
+
+### 单源最短路径算法
+- BFS（无权图）
+![](.graph_images/BFS_mst.png)
+![](.graph_images/bfs_mst_code.png)
+![](.graph_images/bsf_mst_code2.png)
+  
+- Dijkstra（无权，有权图）
+![](.graph_images/dijkstra_mst_code.png)
+![](.graph_images/dijkstra_mst_code2.png)
+  
+note:不适合权制为负数的图--场景入上下坡下车充电
+
+### 顶点间最短路径
+- Floyd算法（无权，有权图）
+![](.graph_images/floyd_mst.png)
