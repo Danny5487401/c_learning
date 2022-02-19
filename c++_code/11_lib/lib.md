@@ -54,6 +54,8 @@ g++ -o main1 main.cpp -L/Users/python/Desktop/c_learning/c++_code/11_lib -lpubli
 g++ -fPIC -shared -o libpublic.so public.cpp
 ```
 
+解释参数：-fPIC 使用地址无关代码模式进行编译， -shared 产生共享对象文件，即生成动态库。
+
 2. 可执行文件
 ```shell
 
