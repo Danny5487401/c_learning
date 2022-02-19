@@ -59,13 +59,13 @@
 
 强连通图：此为有向图的概念，表示任意两个顶点a，b，使得a能够连接到b，b也能连接到a 的图；
 
-生成树：
-
 最小生成树：此生成树的边的权重之和是所有生成树中最小的；
 
-AOV网（Activity On Vertex Network ）：在有向图中若以顶点表示活动，有向边表示活动之间的先后关系
+![](.graph_images/aov.png)
+AOV网（Activity On Vertex Network ）：在有向图中若以**顶点**表示活动，有向边表示活动之间的先后关系
 
-AOE网（Activity On Edge Network）：在带权有向图中若以顶点表示事件，有向边表示活动，边上的权值表示该活动持续的时间
+![](.graph_images/aoe.png)
+AOE网（Activity On Edge Network）：在带权有向图中若*以顶点表示事件，有向边表示活动*，边上的权值表示该活动持续的时间
 
 
 ## 图的存储
@@ -178,3 +178,9 @@ note:不适合权制为负数的图--场景入上下坡下车充电
 - Floyd算法（无权，有权图）
 ![](.graph_images/floyd_mst.png)
 ![](.graph_images/floyd_code.png)
+  
+## 拓扑排序
+![](.graph_images/graph_sort_aov.png)
+
+## 关键路径
+![](.graph_images/primary_path.png)
