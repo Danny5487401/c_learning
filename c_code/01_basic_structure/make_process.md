@@ -1,6 +1,7 @@
 # 编译
 
 ## 编译过程
+![img.png](.make_process/assembly_process.png)
 ![img.png](.make_process/make_process.png)
 1. 第一个阶段是预处理阶段，在正式的编译阶段之前进行。预处理阶段将根据已放置在文件中的预处理指令来修改源文件的内容。
 
