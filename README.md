@@ -54,6 +54,8 @@
   - 4.1 BFS (Breadth First Search 广度优先遍历）
   - 4.2 DFS (Depth First Search 深度优先搜索)
   - 4.3 单源最短路径算法(Floyd(弗洛伊德)算法)
+  - 4.4 拓扑排序
+  - 4.5 关键路径
 - [Clang 及 LLVM 介绍](Clang.md)
 
 注意 ⚠️：**_中文注释乱码设置 vscode:files.autoGuessEncoding 项的值改为 true 即可，数据结构中推荐编码格式为 GBK_**
