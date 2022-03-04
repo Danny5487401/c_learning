@@ -1,20 +1,20 @@
 # C_learning C 语言学习
 
-参考 c 语言技术网https://www.freecplus.net/dad5c75aa6214160a1937cc09ed33135.html
+参考 c 语言技术网 https://www.freecplus.net/dad5c75aa6214160a1937cc09ed33135.html
 
 ## 第一章 c 语言学习代码
 
-- 1 基本结构编译过程
-- 2 定义变量并初始化
-- 3 运算符
-- 4 main 函数的参数
-- 5 结构体
-- 6 字符串
+- [1 基本结构编译过程](c_code/01_basic_structure/make_process.md)
+- [2 定义变量并初始化](c_code/02_distribute_value/book2.c)
+- [3 运算符](c_code/03_opration_symbol/book3.c)
+- [4 main 函数的参数](c_code/04_main_args/book4.c)
+- [5 结构体](c_code/05_struct/struct.c)
+- [6 字符串](c_code/06_string/string_test.c)
 - 7 指针
-- 8 类型转换
+- [8 类型转换](c_code/08_int/transfer.c)
 - 9 函数
-- 10 头文件
-- 11 排序 sort
+- [10 头文件](c_code/10_head_files/head.md)
+- [11 排序 sort](c_code/11_sort/sort.c)
 
 ## 第二章 c++语言学习代码
 
@@ -36,7 +36,7 @@
   - 1.1 顺序表
     - 静态实现，数据元素是整数
     - 静态实现，数据元素是结构体
-- 2 B 树
+- [2 B 树](dataStructure/02_btree/btree.md)
 - 3 排序算法
   - 3.1 冒泡排序
   - 3.2 桶排序
