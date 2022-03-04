@@ -51,3 +51,15 @@
 ### 三种遍历方式
 ![](.btree_images/three_ways_of_read_binary_tree.png)
 
+先序遍历
+![](.btree_images/left_root_right.png)
+![](.btree_images/left_root_right1.png)
+![](.btree_images/tips_of_left_root_right.png)
+
+中序遍历
+![](.btree_images/left_root_right2.png)
+![](.btree_images/tips_of_left_root_right1.png)
+
+后序遍历
+![](.btree_images/left_root_right3.png)
+![](.btree_images/tips_of_left_root_right2.png)
