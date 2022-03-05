@@ -45,7 +45,7 @@
 
 ### 层次遍历
 ![](.btree_images/layer_read.png)
-![](dataStructure/02_btree/.btree_images/layer_read_process.png)
+![](dataStructure/03_btree/.btree_images/layer_read_process.png)
 借助队列，出队时，帮左右子元素入队。
 
 ### 三种遍历方式

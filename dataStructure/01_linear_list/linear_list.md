@@ -15,3 +15,10 @@
 
 ### 顺序表的动态实现
 ![](.linear_list_images/dynamic_sequenced_code.png)
+
+## 顺序表的合并
+![](.linear_list_images/liner_sort.png)
+
+归并合并原理
+![](.linear_list_images/merge_sort.png)
+
