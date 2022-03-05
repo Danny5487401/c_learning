@@ -1,20 +1,20 @@
-all: 	seqlist1 seqlist2 seqlist3 seqlist4 linklist1 linklist2 linklist3 linklist4\
+all: 	01_linear_list/seqlist1 01_linear_list/seqlist2 01_linear_list/seqlist3 01_linear_list/seqlist4 linklist1 linklist2 linklist3 linklist4\
 	linklist5 linklist6 seqstack1 linkstack1 seqqueue1 seqqueue2 seqqueue3\
 	seqqueue4 linkqueue1 seqstack2 seqstack3 kmp btree1 btree2 btree3 btree4\
 	floyd seqsearch binsearch hash\
         bubblesort bubblesort1 selectsort selectsort1 insertsort shellsort quicksort mergesort mergesort1\
         heapsort countsort countsort1 countsort2 bucketsort radixsort
 
-seqlist1:seqlist1.c
+seqlist1:01_linear_list/seqlist1.c
 	gcc -g -o seqlist1 seqlist1.c
 
-seqlist2:seqlist2.c
+seqlist2:01_linear_list/seqlist2.c
 	gcc -g -o seqlist2 seqlist2.c
 
-seqlist3:seqlist3.c
+seqlist3:01_linear_list/seqlist3.c
 	gcc -g -o seqlist3 seqlist3.c
 
-seqlist4:seqlist4.c
+seqlist4:01_linear_list/seqlist4.c
 	gcc -g -o seqlist4 seqlist4.c
 
 linklist1:linklist1.c

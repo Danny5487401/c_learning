@@ -1,6 +1,7 @@
 # C_learning 学习C语言
+经典语句：在中国，没有纯C程序员，如果他不会C++，不是他对C有多么执着，可能是不会C++。嵌入式开发可能是个例外，可能还有其它只能用C不能用C++的场景。
 
-参考 c 语言技术网https://www.freecplus.net/dad5c75aa6214160a1937cc09ed33135.html
+参考 c 语言技术网 https://www.freecplus.net/dad5c75aa6214160a1937cc09ed33135.html
 
 ## 第一章 c 语言学习代码
 - 1 基本结构编译过程
@@ -9,10 +10,12 @@
 
 ## 第三章 数据结构与算法
 
-- 1 线性表
+- [1 线性表](dataStructure/01_linear_list/linear_list.md)
   - 1.1 顺序表
-    - 静态实现，数据元素是整数
-    - 静态实现，数据元素是结构体
+    - [静态实现，数据元素是整数](dataStructure/01_linear_list/seqlist1.c)
+    - [静态实现，数据元素是结构体](dataStructure/01_linear_list/seqlist2.c)
+    - [动态实现，数据元素是整数](dataStructure/01_linear_list/seqlist3.c)
+    - [动态实现，数据元素是结构体](dataStructure/01_linear_list/seqlist4.c)
 - 2 B 树
 - 3 排序算法
   - 3.1  冒泡排序
