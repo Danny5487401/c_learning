@@ -51,15 +51,29 @@
 ### 三种遍历方式
 ![](.btree_images/three_ways_of_read_binary_tree.png)
 
-先序遍历
+1. 先序遍历
 ![](.btree_images/left_root_right.png)
 ![](.btree_images/left_root_right1.png)
 ![](.btree_images/tips_of_left_root_right.png)
 
-中序遍历
+2. 中序遍历
 ![](.btree_images/left_root_right2.png)
 ![](.btree_images/tips_of_left_root_right1.png)
 
-后序遍历
+3. 后序遍历
 ![](.btree_images/left_root_right3.png)
 ![](.btree_images/tips_of_left_root_right2.png)
+
+#### 遍历方式代码实现
+递归方案实现先序遍历
+![](.btree_images/iterate_preorder.png)
+
+递归方案实现中序遍历
+![](.btree_images/iterate_inorder.png)
+
+递归方案实现后序遍历
+![](.btree_images/iterate_postoder.png)
+
+
+栈的方式实现中序遍历
+![](.btree_images/stack_oder.png)
