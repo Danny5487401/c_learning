@@ -13,10 +13,10 @@
 - [3 运算符](c_code/03_opration_symbol/book3.c)
 - [4 main 函数的参数](c_code/04_main_args/book4.c)
 - [5 结构体](c_code/05_struct/struct.c)
-- [6 字符串](c_code/06_string/string_test.c)
+- [6 字符串及常用函数](c_code/06_string/string.md)
 - 7 指针
 - [8 类型转换](c_code/08_int/transfer.c)
-- 9 函数
+- [9 函数声明与定义](c_code/09_func/func.md)
 - [10 头文件](c_code/10_head_files/head.md)
 - [11 排序 sort](c_code/11_sort/sort.c)
 
