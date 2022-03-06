@@ -43,6 +43,7 @@
 - [2 link list链表](dataStructure/02_link_list/link_list.md)  
   - [2.1 带头结点的单链表的实现，数据元素是整数](dataStructure/02_link_list/linklist1.c)
   - [2.2 带头结点的单链表的实现，数据元素是结构体](dataStructure/02_link_list/linklist2.c)
+  - [2.3 不带头结点的单链表的实现](dataStructure/02_link_list/linklist3.c)
 
 
 - [3 B 树](dataStructure/03_btree/btree.md)
