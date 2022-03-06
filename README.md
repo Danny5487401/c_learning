@@ -12,7 +12,7 @@
 - [2 定义变量并初始化](c_code/02_distribute_value/book2.c)
 - [3 运算符](c_code/03_opration_symbol/book3.c)
 - [4 main 函数的参数](c_code/04_main_args/book4.c)
-- [5 结构体](c_code/05_struct/struct.c)
+- [5 结构体](c_code/05_struct/struct.md)
 - [6 字符串及常用函数](c_code/06_string/string.md)
 - 7 指针
 - [8 类型转换](c_code/08_int/transfer.c)
