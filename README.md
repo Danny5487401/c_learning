@@ -4,7 +4,7 @@
 经典语句：在中国，没有纯C程序员，如果他不会C++，不是他对C有多么执着，可能是不会C++。嵌入式开发可能是个例外，可能还有其它只能用C不能用C++的场景。
 
 
-参考 c 语言技术网 https://www.freecplus.net/dad5c75aa6214160a1937cc09ed33135.html
+参考 **c 语言技术网** https://www.freecplus.net/dad5c75aa6214160a1937cc09ed33135.html
 
 ## 第一章 c 语言学习
 
@@ -20,8 +20,8 @@
 - [10 头文件](c_code/10_head_files/head.md)
 - [11 排序 sort](c_code/11_sort/sort.c)
 
-## 第二章 c++语言学习
-- 1 函数重载
+## [第二章 c++语言学习](c++_code/c++.md)
+- [1 Function Overloading函数重载](c++_code/01_func/func_reload.md)
 - 2 类和对象
 - 3 引用
 - 4 运算符重载
