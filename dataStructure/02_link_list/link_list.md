@@ -20,8 +20,19 @@ LNode为结构体，LinkList是结构体指针
 ![](.link_list_images/link_list_code1.png)
 
 
-### 单链表的插入与删除
+### 单链表的插入与删除(按位序---下标索引)
 ![](.link_list_images/link_list_delete_n_insert.png)
 
+#### 插入
 ![](.link_list_images/insert_process.png)
 Note: 写法顺序不能反
+
+#### 删除
+![](.link_list_images/delete_process.png)
+
+### 查找
+- 按位序
+- 按元素
+
+### 单链表的插入与删除(按结点)
+![](.link_list_images/insert_process1.png)
