@@ -40,3 +40,16 @@ Note: 写法顺序不能反
 
 ## 单链表的排序
 ![](.link_list_images/sort_link_list.png)
+
+## 单链表的反转
+![](.link_list_images/reverse_link_list.png)
+- 反转部分
+- 反转全部
+
+![](.link_list_images/reverse_process.png)
+方式一：原地反转链表流程
+1. 取出所有数据
+2. 然后一个一个插数据
+
+方式二：新空间反转链表流程
+![](.link_list_images/reverse_process_1.png)
