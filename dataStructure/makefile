@@ -1,65 +1,65 @@
-all: 	seqlist1 seqlist2 seqlist3 seqlist4 linklist1 linklist2 linklist3 linklist4\
-	linklist5 linklist6 seqstack1 linkstack1 seqqueue1 seqqueue2 seqqueue3\
-	seqqueue4 linkqueue1 seqstack2 seqstack3 kmp btree1 btree2 btree3 btree4\
-	floyd seqsearch binsearch hash\
+all: 	01_linear_list/seqlist1 01_linear_list/seqlist2 01_linear_list/seqlist3 01_linear_list/seqlist4 02_link_list/linklist1 02_link_list/linklist2 02_link_list/linklist3 02_link_list/linklist4\
+	02_link_list/linklist5 02_link_list/linklist6 07_stack/seqstack1 07_stack/linkstack1 06_queue/seqqueue1 06_queue/seqqueue2 06_queue/seqqueue3\
+	06_queue/seqqueue4 06_queue/linkqueue1 07_stack/seqstack2 07_stack/seqstack3 kmp btree1 btree2 btree3 btree4\
+	floyd seqsearch binsearch 05_hash/hash\
         bubblesort bubblesort1 selectsort selectsort1 insertsort shellsort quicksort mergesort mergesort1\
         heapsort countsort countsort1 countsort2 bucketsort radixsort
 
-seqlist1:seqlist1.c
+seqlist1:01_linear_list/seqlist1.c
 	gcc -g -o seqlist1 seqlist1.c
 
-seqlist2:seqlist2.c
+seqlist2:01_linear_list/seqlist2.c
 	gcc -g -o seqlist2 seqlist2.c
 
-seqlist3:seqlist3.c
+seqlist3:01_linear_list/seqlist3.c
 	gcc -g -o seqlist3 seqlist3.c
 
-seqlist4:seqlist4.c
+seqlist4:01_linear_list/seqlist4.c
 	gcc -g -o seqlist4 seqlist4.c
 
-linklist1:linklist1.c
+linklist1:02_link_list/linklist1.c
 	gcc -g -o linklist1 linklist1.c
 
-linklist2:linklist2.c
+linklist2:02_link_list/linklist2.c
 	gcc -g -o linklist2 linklist2.c
 
-linklist3:linklist3.c
+linklist3:02_link_list/linklist3.c
 	g++ -g -o linklist3 linklist3.c
 
-linklist4:linklist4.c
+linklist4:02_link_list/linklist4.c
 	gcc -g -o linklist4 linklist4.c
 
-linklist5:linklist5.c
+linklist5:02_link_list/linklist5.c
 	gcc -g -o linklist5 linklist5.c
 
-linklist6:linklist6.c
+linklist6:02_link_list/linklist6.c
 	gcc -g -o linklist6 linklist6.c
 
-seqstack1:seqstack1.c
+seqstack1:07_stack/seqstack1.c
 	gcc -g -o seqstack1 seqstack1.c
 
-seqstack2:seqstack2.c
+seqstack2:07_stack/seqstack2.c
 	gcc -g -o seqstack2 seqstack2.c
 
-seqstack3:seqstack3.c
+seqstack3:07_stack/seqstack3.c
 	gcc -g -o seqstack3 seqstack3.c
 
-linkstack1:linkstack1.c
+linkstack1:07_stack/linkstack1.c
 	gcc -g -o linkstack1 linkstack1.c
 
-seqqueue1:seqqueue1.c
+seqqueue1:06_queue/seqqueue1.c
 	gcc -g -o seqqueue1 seqqueue1.c
 
-seqqueue2:seqqueue2.c
+seqqueue2:06_queue/seqqueue2.c
 	gcc -g -o seqqueue2 seqqueue2.c
 
-seqqueue3:seqqueue3.c
+seqqueue3:06_queue/seqqueue3.c
 	gcc -g -o seqqueue3 seqqueue3.c
 
-seqqueue4:seqqueue4.c
+seqqueue4:06_queue/seqqueue4.c
 	gcc -g -o seqqueue4 seqqueue4.c
 
-linkqueue1:linkqueue1.c
+linkqueue1:06_queue/linkqueue1.c
 	gcc -g -o linkqueue1 linkqueue1.c
 
 kmp:kmp.c
@@ -86,7 +86,7 @@ seqsearch:seqsearch.c
 binsearch:binsearch.c
 	gcc -g -o binsearch binsearch.c
 
-hash:hash.c
+hash:05_hash/hash.c
 	gcc -g -o hash hash.c
 
 bubblesort:bubblesort.c

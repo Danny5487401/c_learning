@@ -3,13 +3,14 @@
  
 int main()
 {
-  char name[50];
-  memset(name,0,sizeof(name));
-  strcpy(name, "wucongzhou");
-  printf("name 的长度是%u\n",strlen(name));     // 输出结果：name 的长度是10
-  memset(name,0,sizeof(name));
-  strcpy(name, "西施");
-  printf("name 的长度是%u\n",strlen(name));     // 输出结果：name 的长度是4
+    char name[50];
+    memset(name,0,sizeof(name));
+    strcpy(name, "wucongzhou");
+    printf("name 的长度是%lu\n",strlen(name));     // 输出结果：name 的长度是10
+    memset(name,0,sizeof(name));
+    strcpy(name, "西施");
+    printf("name 的长度是%lu\n",strlen(name));     // 输出结果：name 的长度是4
+
 }
 
 // 字符串需要用\0结尾，所以在定义字符串的时候，字符数组的长度要预留多一个字节用来存放\0，\0就是数字0。这是约定

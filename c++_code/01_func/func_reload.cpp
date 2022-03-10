@@ -11,7 +11,7 @@ int main()
   strcpy(dest,"www.freecplus.net",sizeof(dest));  // 新strcpy
   printf("=%s=\n",dest);
  
-  strcpy(dest,"www.freecplus.net");   // 旧strcpy
+  strcpy(dest,"www.freecplus.net");   // 旧strcpy，strcpy函数有两个缺陷：1）没有对dest变量进行初始化；2）如果src的长度超过dest，会造成内存溢出。
   printf("=%s=\n",dest);
 }
  
