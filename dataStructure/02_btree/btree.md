@@ -77,3 +77,36 @@
 
 栈的方式实现中序遍历
 ![](.btree_images/stack_oder.png)
+
+
+## 二叉树的遍历
+由遍历序列构造二叉树
+![](dataStructure/02_btree/.btree_images/construct_tree.png)
+
+先序+中序遍历 构造二叉树
+![](.btree_images/construct_tree1.png)
+![](.btree_images/construct_tree2.png)
+
+
+层次+中序遍历 
+![](.btree_images/construct_tree3.png)
+
+## 线索二叉树
+![](.btree_images/index_tree.png)
+线索二叉树，可以理解是用了二叉树中的空指针。
+
+二叉树线索化
+![](.btree_images/index_tree2.png)
+
+### 线索二叉树数据结构
+![](.btree_images/threaded_tree_struct.png)
+
+
+### 线索二叉树求前继和后继
+![](.btree_images/threaded_tree_pre_post_order.png)
+
+#### 先序线索二叉树求后继
+ ![](.btree_images/preorder_get_postorder.png)
+ 
+#### 中序线索二叉树求前继和后继
+![](.btree_images/inorder_tree_pre_post.png)

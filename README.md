@@ -39,6 +39,7 @@
 - [2 B 树](dataStructure/02_btree/btree.md)
   - [2.1 二叉树的层次遍历](dataStructure/02_btree/btree1.c)
   - [2.2 二叉树的前序遍历、中序遍历和后序遍历，包括递归和非递归两种方法](dataStructure/02_btree/btree2.c)
+  - [2.3 中序线索二叉树的创建及求前驱后继的方法](dataStructure/02_btree/btree3.c)
   
 - 3 排序算法
   - 3.1 冒泡排序
