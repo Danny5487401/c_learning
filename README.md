@@ -44,7 +44,9 @@
   - [2.1 带头结点的单链表的实现，数据元素是整数](dataStructure/02_link_list/linklist1.c)
   - [2.2 带头结点的单链表的实现，数据元素是结构体](dataStructure/02_link_list/linklist2.c)
   - [2.3 不带头结点的单链表的实现](dataStructure/02_link_list/linklist3.c)
-
+  - [2.4 带头结点的双链表的实现，数据元素是整数](dataStructure/02_link_list/linklist4.c)
+  - [2.5 带头结点的循环单链表的实现，数据元素是整数](dataStructure/02_link_list/linklist5.c)
+  - 2.6 常见的考题
 
 - [3 B 树](dataStructure/03_btree/btree.md)
   - [3.1 二叉树的层次遍历](dataStructure/03_btree/btree1.c)

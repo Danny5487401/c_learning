@@ -53,3 +53,13 @@ Note: 写法顺序不能反
 
 方式二：新空间反转链表流程
 ![](.link_list_images/reverse_process_1.png)
+
+## 双链表
+![](.link_list_images/double_link_list.png)
+
+
+## 循环单链表
+![](.link_list_images/cycle_link_list.png)
+
+## 循环双链表
+![](.link_list_images/cycle_double_link_list.png)
