@@ -57,9 +57,18 @@
   - 4.5 关键路径
 - 5 hash哈希表
   
-- 6 queue队列
+- [6 queue队列](dataStructure/06_queue/queue.md)
+  - [6.1 循环队列的数组实现，队尾指针指向队尾的下一个元素，没有length的辅助变量](dataStructure/06_queue/seqqueue1.c)
+  - [6.2 循环队列的数组实现，队尾指针指向队尾的下一个元素，增加了length的辅助变量](dataStructure/06_queue/seqqueue2.c)
+  - [6.3 循环队列的数组实现，队尾指针指向队尾元素，没有length的辅助变量](dataStructure/06_queue/seqqueue3.c)
+  - [6.4 循环队列的数组实现，队尾指针指向队尾元素，增加了length的辅助变量](dataStructure/06_queue/seqqueue4.c)
+  - [6.5 队列的链表实现（带头结点）](dataStructure/06_queue/linkqueue1.c)
   
-- 7 stack栈
+- [7 stack栈](dataStructure/07_stack/stack.md)
+  - [7.1 顺序栈的实现，数据元素是整数](dataStructure/07_stack/seqstack1.c)
+  - [7.2 链栈的实现，数据元素是整数](dataStructure/07_stack/linkstack1.c)
+  - 7.3 顺序栈检查括号是否匹配，支持()[]{}三种括号
+  - 7.4 用顺序栈实现中缀表达式转后缀表达式
   
 - 8 排序算法
   - 8.1 冒泡排序
