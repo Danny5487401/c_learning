@@ -86,6 +86,9 @@
   - 8.8 基数排序
   - 8.9 选择排序
   - 8.10 希尔排序
+  
+- 9 数组和广义表  
+  
 - [Clang 及 LLVM 介绍](Clang.md)
 
 注意 ⚠️：**_中文注释乱码时，设置 vscode:files.autoGuessEncoding 项的值改为 true 即可，数据结构中推荐编码格式为 GBK_**
