@@ -14,7 +14,7 @@
 - [2 定义变量并初始化](c_code/02_distribute_value/book2.c)
 - [3 运算符](c_code/03_opration_symbol/book3.c)
 - [4 main 函数的参数](c_code/04_main_args/book4.c)
-- [5 结构体](c_code/05_struct/struct.c)
+- [5 结构体](c_code/05_struct/struct.md)
 - [6 字符串及常用函数](c_code/06_string/string.md)
 - 7 指针
 - [8 类型转换](c_code/08_int/transfer.c)
@@ -45,11 +45,12 @@
 - [2 link list链表](dataStructure/02_link_list/link_list.md)  
   - [2.1 带头结点的单链表的实现，数据元素是整数](dataStructure/02_link_list/linklist1.c)
   - [2.2 带头结点的单链表的实现，数据元素是结构体](dataStructure/02_link_list/linklist2.c)
-
-
+  
 - [3 B 树](dataStructure/03_btree/btree.md)
   - [3.1 二叉树的层次遍历](dataStructure/03_btree/btree1.c)
   - [3.2 二叉树的前序遍历、中序遍历和后序遍历，包括递归和非递归两种方法](dataStructure/03_btree/btree2.c)
+  - [3.3 中序线索二叉树的创建及求前驱后继的方法](dataStructure/03_btree/btree3.c)
+
   
 - [4 图](dataStructure/04_graph/graph.md)
   - 4.1 BFS (Breadth First Search 广度优先遍历）
