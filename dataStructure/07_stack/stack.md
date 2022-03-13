@@ -14,3 +14,17 @@
 ![](.stack_images/link_stack2.png)
 
 
+## 栈在括号匹配中应用
+![](.stack_images/stack_in_brakets.png)
+![](.stack_images/stack_in_brakets2.png)
+
+![](.stack_images/stack_in_brakets_code.png)
+
+
+## 栈在表达式求值中的应用
+![](.stack_images/stack_in_operator.png)
+![](.stack_images/stack_in_operator2.png)
+![](.stack_images/stack_in_operator3.png)
+
+![](.stack_images/stack_in_operator_code.png)
+![](.stack_images/stack_in_operator_code2.png)
