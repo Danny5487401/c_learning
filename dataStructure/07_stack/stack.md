@@ -28,3 +28,10 @@
 
 ![](.stack_images/stack_in_operator_code.png)
 ![](.stack_images/stack_in_operator_code2.png)
+
+## 函数调用栈
+
+![](.stack_images/func_stack.png)
+
+### 递归函数调用栈
+![](.stack_images/iterate_stack_func.png)

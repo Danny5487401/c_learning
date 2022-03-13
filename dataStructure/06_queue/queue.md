@@ -40,3 +40,17 @@
 
 ## 双端队列--实际没有什么价值
 ![](.queue_images/double_end_queue.png)
+
+## 队列的应用
+1. 树的层次应用
+![](.queue_images/btree_queue.png)
+![](.queue_images/btree_queue2.png)
+
+根节点8入队，把根节点的左右子节点3和2入队，然后根节点8出队。
+把3节点的左右节点4和5入队，把3出队。把2节点的左右节点3和6入队等等
+
+2. cpu的资源调度
+![](.queue_images/queue_in_cpu.png)
+
+3. 数据缓冲区
+![](.queue_images/queue_in_buffer.png)
