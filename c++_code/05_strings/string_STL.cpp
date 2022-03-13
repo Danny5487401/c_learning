@@ -5,14 +5,14 @@
 
 #include <stdio.h>
 #include <string.h>
-// 注意这里不是string.h，string.h是C语言字符串头文件
+// 注意这里不是string.h，string.md.h是C语言字符串头文件
 #include <string>
  // 方式一：string是一个模板类，位于std命名空间内，为方便使用还需要在程序中增加：
 using namespace std;
 
 
 // 方式二：如果不指定命名空间，也就是说没有using namespace std，创建string对象的方法如下
-// std::string str;
+// std::string.md str;
 
 int main ()
 {
