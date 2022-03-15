@@ -209,3 +209,16 @@
 1. 长度不固定
 2. 长度短
 
+#### huffman概念
+![](.btree_images/huffman_idea.png)
+![](.btree_images/huffman_idea2.png)
+
+#### 构造huffman树
+![](.btree_images/construct_huffman.png)
+![](.btree_images/construct_huffman2.png)
+![](.btree_images/construct_huffman3.png)
+
+#### huffman编码
+![](.btree_images/huffman_encoding.png)
+![](.btree_images/huffman_encoding2.png)
+![](.btree_images/huffman_encoding3.png)
