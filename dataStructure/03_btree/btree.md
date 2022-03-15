@@ -110,3 +110,34 @@
  
 #### 中序线索二叉树求前继和后继
 ![](.btree_images/inorder_tree_pre_post.png)
+
+## 树的存储结构
+![](.btree_images/tree_storage.png)
+
+### 1. 孩子兄弟表示法----主要
+
+![](.btree_images/tree_storage1.png)
+![](.btree_images/tree_storage2.png)
+
+### 2. 双亲表示法
+![](.btree_images/tree_storage3.png)
+
+### 3. 孩子表示法
+![](.btree_images/tree_storage4.png)
+
+
+## 二叉排序（搜索）树(binary sort tree)
+![](.btree_images/two_trees_info.png)
+![](.btree_images/bst.png)
+
+中序遍历---升序
+
+### 查找,插入,创建,删除
+![](.btree_images/search_bst.png)
+![](.btree_images/insert_bst.png)
+
+![](.btree_images/init_bst3.png)
+![](.btree_images/init_bst.png)
+![](.btree_images/init_bst2.png)
+
+![](.btree_images/delete_bst.png)
