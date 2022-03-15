@@ -88,7 +88,10 @@
   - 8.9 选择排序
   - 8.10 希尔排序
   
-- 9 数组和广义表  
+- [9 数组和广义表](dataStructure/09_array/array.md)
+- [10 串](dataStructure/10_string/string.md)
+- [11 查找](dataStructure/11_search/search.md)
+  - [11.1 顺序查找](dataStructure/11_search/seqsearch.c)
   
 - [Clang 及 LLVM 介绍](Clang.md)
 
