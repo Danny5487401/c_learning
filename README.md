@@ -48,6 +48,7 @@
   - [3.1 二叉树的层次遍历](dataStructure/03_btree/btree1.c)
   - [3.2 二叉树的前序遍历、中序遍历和后序遍历，包括递归和非递归两种方法](dataStructure/03_btree/btree2.c)
   - [3.3 中序线索二叉树的创建及求前驱后继的方法](dataStructure/03_btree/btree3.c)
+  - [3.4 二叉排序树的各种操作，包括插入、删除、查找](dataStructure/03_btree/btree4.c)
 
   
 - [4 图](dataStructure/04_graph/graph.md)

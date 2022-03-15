@@ -110,3 +110,72 @@
  
 #### 中序线索二叉树求前继和后继
 ![](.btree_images/inorder_tree_pre_post.png)
+
+
+### 二叉排序树的节点删除
+![](.btree_images/delete_ast.png) 
+![](.btree_images/delete_ast_node.png)
+
+### 二叉排序树的查找效率分析
+![](.btree_images/ast_performance_of_searching.png)
+查找成功  的平均查找长度（ASL average search length）
+
+![](.btree_images/ast_performance_of_searching_fail.png) 
+查找失败   的平均查找长度（ASL average search length）
+
+![](.btree_images/ast_performance_of_searching_fail_n_suc.png)
+
+
+## 平衡二叉树 ---代码实现过于复杂
+![](.btree_images/balance_tree.png)
+![](.btree_images/avl.png) 
+
+### 插入和删除 数据后不平衡
+![](.btree_images/unbalanced_avl.png)
+
+调整方式：调整最小不平衡子树，如70是最小的
+![](.btree_images/sort_avl.png) 
+
+从最小不平衡子树出发   
+![](.btree_images/sort_avl2.png)
+![](.btree_images/sort_avl3.png)
+![](.btree_images/sort_avl4.png)
+
+1. 左左更高
+![](.btree_images/sort_avl5.png)
+向右旋转，然后30放在右侧左子树
+![](.btree_images/sort_avl6.png)
+![](.btree_images/sort_avl7.png)
+
+2. 左右更高
+![](.btree_images/sort_avl8.png) 
+ ![](.btree_images/sort_avl9.png)
+向左旋转,  向右旋转
+![](.btree_images/sort_avl10.png) 
+![](.btree_images/sort_avl11.png)
+![](.btree_images/sort_avl12.png)
+![](.btree_images/sort_avl13.png)
+
+总结：  
+![](.btree_images/sort_avl14.png)
+
+
+### 树高和节点关系
+![](.btree_images/avl_height.png)
+![](.btree_images/avl_height1.png)
+
+### 哈夫曼huffman树（最优二叉树）
+在通信上广泛应用
+
+把经常访问放在跟根结点最近的地方
+![](.btree_images/hf_tree.png)
+![](.btree_images/hf_tree1.png)
+
+二进制表示:书写简单，不容易泄密
+![](.btree_images/hf_tree2.png)
+1. 浪费空间
+2. 人物长度固定
+
+![](.btree_images/hf_tree3.png)
+1. 长度不固定
+2. 长度短
