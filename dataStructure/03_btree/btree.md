@@ -81,7 +81,7 @@
 
 ## 二叉树的遍历
 由遍历序列构造二叉树
-![](dataStructure/02_btree/.btree_images/construct_tree.png)
+![](dataStructure/03_btree/.btree_images/construct_tree.png)
 
 先序+中序遍历 构造二叉树
 ![](.btree_images/construct_tree1.png)
