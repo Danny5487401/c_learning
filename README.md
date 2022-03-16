@@ -92,6 +92,7 @@
 - [10 串](dataStructure/10_string/string.md)
 - [11 查找](dataStructure/11_search/search.md)
   - [11.1 顺序查找](dataStructure/11_search/seqsearch.c)
+  - [11.1 二分查找](dataStructure/11_search/binsearch.c)
   
 - [Clang 及 LLVM 介绍](Clang.md)
 
