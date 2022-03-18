@@ -46,3 +46,13 @@
 ![](.search_images/binary_search_performance.png)
 ![](.search_images/binary_search_performance1.png) 
 ![](.search_images/binary_search_performance2.png)
+
+
+## 分块查找
+![](.search_images/block_search.png)
+![](.search_images/block_search1.png)
+![](.search_images/binary_block_search2.png)
+块内无序，块间有序
+
+### 效率分析
+![](.search_images/block_search_perfomance.png)
