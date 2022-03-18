@@ -222,3 +222,69 @@
 ![](.btree_images/huffman_encoding.png)
 ![](.btree_images/huffman_encoding2.png)
 ![](.btree_images/huffman_encoding3.png)
+
+
+## B树
+### 多叉排序树
+![](.btree_images/multi_tree.png)
+![](.btree_images/multi_tree1.png)
+n个关键字--分为n+1个区间，注意线画在关键字中间
+
+### 5阶B树特性
+![](.btree_images/b_tree_info.png)
+![](.btree_images/b_tree_info1.png)
+![](.btree_images/btree_exam.png)
+![](.btree_images/btree_exam1.png)
+
+
+### 5阶B树插入和删除
+#### 插入
+![](.btree_images/btree_insert.png)
+![](.btree_images/btree_insert1.png)
+![](.btree_images/btree_insert2.png)
+![](.btree_images/btree_insert3.png)
+![](.btree_images/btree_insert4.png)
+![](.btree_images/btree_insert5.png)
+![](.btree_images/btree_insert6.png)
+
+#### 删除
+1. 删除69
+![](.btree_images/btree_delete1.png)
+
+2. 删除50,向左向右都可以借，但是不是直接借，需要通过父节点中转
+![](.btree_images/btree_delete2.png)
+![](.btree_images/btree_delete3.png)
+
+
+3. 删除28
+![](.btree_images/btree_delete4.png)
+![](.btree_images/btree_delete5.png)
+![](.btree_images/btree_delete6.png)
+![](.btree_images/btree_delete7.png)
+![](.btree_images/btree_delete8.png)
+
+4. 删除70
+![](.btree_images/btree_delete9.png)
+![](.btree_images/btree_delete10.png)
+
+## B+树----B树变形树
+![](.btree_images/b+tree.png)
+![](.btree_images/ b+tree4.png)
+1. 查找:可以从根节点通过分块查找，也可以通过叶节点采用顺序查找
+2. 索引是是子树最大值,线连在子树中间
+
+
+关键字和记录是分开的
+![](.btree_images/b+tree1.png) 
+
+数据比较多，增加索引表
+![](.btree_images/b+tree2.png)
+![](.btree_images/b+tree3.png)
+
+
+### b+树考题
+![](.btree_images/b+tree_exam.png)
+
+## B树 V B+树
+![](.btree_images/btree_vs_b+tree.png)
+
