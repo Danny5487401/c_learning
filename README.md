@@ -1,10 +1,12 @@
 # C_learning 学习C语言
 ![](.README_images/c_language.png)
 
-经典语句：在中国，没有纯C程序员，如果他不会C++，不是他对C有多么执着，可能是不会C++。嵌入式开发可能是个例外，可能还有其它只能用C不能用C++的场景。
-
-
 参考 **c 语言技术网** https://www.freecplus.net/dad5c75aa6214160a1937cc09ed33135.html
+
+## 经典语句
+1. 在中国，没有纯C程序员，如果他不会C++，不是他对C有多么执着，可能是不会C++。嵌入式开发可能是个例外，可能还有其它只能用C不能用C++的场景。
+2. 我对前辈们的智慧怀敬畏之心，智慧的光芒流传千古，不学习是我们的损失。如果你以后成为了大佬，希望不要骄傲，只是因为站在巨人的肩膀上
+
 
 ## 第一章 c 语言学习
 
@@ -48,9 +50,13 @@
   - [2.5 带头结点的循环单链表的实现，数据元素是整数](dataStructure/02_link_list/linklist5.c)
   - 2.6 常见的考题
 
+
 - [3 B 树](dataStructure/03_btree/btree.md)
   - [3.1 二叉树的层次遍历](dataStructure/03_btree/btree1.c)
   - [3.2 二叉树的前序遍历、中序遍历和后序遍历，包括递归和非递归两种方法](dataStructure/03_btree/btree2.c)
+  - [3.3 中序线索二叉树的创建及求前驱后继的方法](dataStructure/03_btree/btree3.c)
+  - [3.4 二叉排序树的各种操作，包括插入、删除、查找](dataStructure/03_btree/btree4.c)
+
   
 - [4 图](dataStructure/04_graph/graph.md)
   - 4.1 BFS (Breadth First Search 广度优先遍历）
@@ -60,9 +66,18 @@
   - 4.5 关键路径
 - 5 hash哈希表
   
-- 6 queue队列
+- [6 queue队列](dataStructure/06_queue/queue.md)
+  - [6.1 循环队列的数组实现，队尾指针指向队尾的下一个元素，没有length的辅助变量](dataStructure/06_queue/seqqueue1.c)
+  - [6.2 循环队列的数组实现，队尾指针指向队尾的下一个元素，增加了length的辅助变量](dataStructure/06_queue/seqqueue2.c)
+  - [6.3 循环队列的数组实现，队尾指针指向队尾元素，没有length的辅助变量](dataStructure/06_queue/seqqueue3.c)
+  - [6.4 循环队列的数组实现，队尾指针指向队尾元素，增加了length的辅助变量](dataStructure/06_queue/seqqueue4.c)
+  - [6.5 队列的链表实现（带头结点）](dataStructure/06_queue/linkqueue1.c)
   
-- 7 stack栈
+- [7 stack栈](dataStructure/07_stack/stack.md)
+  - [7.1 顺序栈的实现，数据元素是整数](dataStructure/07_stack/seqstack1.c)
+  - [7.2 链栈的实现，数据元素是整数](dataStructure/07_stack/linkstack1.c)
+  - [7.3 顺序栈检查括号是否匹配，支持()[]{}三种括号](dataStructure/07_stack/seqstack2.c)
+  - [7.4 用顺序栈实现中缀表达式转后缀表达式](dataStructure/07_stack/seqstack3.c)
   
 - 8 排序算法
   - 8.1 冒泡排序
@@ -77,6 +92,13 @@
   - 8.8 基数排序
   - 8.9 选择排序
   - 8.10 希尔排序
+  
+- [9 数组和广义表](dataStructure/09_array/array.md)
+- [10 串](dataStructure/10_string/string.md)
+- [11 查找](dataStructure/11_search/search.md)
+  - [11.1 顺序查找](dataStructure/11_search/seqsearch.c)
+  - [11.1 二分查找](dataStructure/11_search/binsearch.c)
+  
 - [Clang 及 LLVM 介绍](Clang.md)
 
-注意 ⚠️：**_中文注释乱码设置 vscode:files.autoGuessEncoding 项的值改为 true 即可，数据结构中推荐编码格式为 GBK_**
+注意 ⚠️：**_中文注释乱码时，设置 vscode:files.autoGuessEncoding 项的值改为 true 即可，数据结构中推荐编码格式为 GBK_**
