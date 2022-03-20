@@ -158,6 +158,9 @@ DFS和BFS是很多图算法的基础。不过，要获得效率更高的图的�
 ![img.png](.graph_images/dfs_tree.png)
 
 
+#### DFS案例
+全排列：leetCode链接：https://leetcode-cn.com/problems/permutations/
+
 ## 最小生成树(MST)
 ![](.graph_images/MST.png)
 - 无向连通图：生成树是指包含全部定点的的极小连通子图
