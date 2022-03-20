@@ -79,11 +79,11 @@
   - [7.3 顺序栈检查括号是否匹配，支持()[]{}三种括号](dataStructure/07_stack/seqstack2.c)
   - [7.4 用顺序栈实现中缀表达式转后缀表达式](dataStructure/07_stack/seqstack3.c)
   
-- 8 排序算法
+- [8 排序算法](dataStructure/08_sort/sort.md)
   - 8.1 冒泡排序
   - 8.2 桶排序
   - 8.3 计数排序
-  - 8.4 堆排序
+  - [8.4 堆排序](dataStructure/08_sort/heapsort.c)
   - 8.5 插入排序
   - 8.6 归并排序
     - 递归的方法实现
