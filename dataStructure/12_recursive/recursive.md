@@ -12,3 +12,14 @@
 
 ## 分类
 ![](.recursive_images/recursive_class.png)
+递去流程：  
+
+![](.recursive_images/recursive_class1.png)
+
+归来流程：  
+
+![](.recursive_images/recursive_class2.png)
+
+
+## 循环和递归
+![](.recursive_images/iterate_n_recursive.png)
