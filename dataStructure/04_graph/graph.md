@@ -108,9 +108,32 @@ DFS和BFS是很多图算法的基础。不过，要获得效率更高的图的�
 ### BFS (Breadth First Search 广度优先遍历）-->树的层次遍历
 ![img.png](.graph_images/bfs.png)
 
+- 连通图
+![](.graph_images/bfs_code1.png)
+
+- 非连通图
+![](.graph_images/bfs_code2.png)
+
 广度优先遍历（Breadth First Search，简称BFS），又称为广度优先搜索。这种搜索方法可以用队列实现。
 
+
 遍历思想：首先，从图的某个顶点v0出发，访问了v0之后，依次访问与v0相邻的未被访问的顶点，然后分别从这些顶点出发，广度优先遍历，直至所有的顶点都被访问完。
+
+#### 过程
+1. 图可以从任意节点开始，
+![](.graph_images/bfs_process1.png)
+
+2. 这里先访问2，2入队，标记已经访问。
+![](.graph_images/bfs_process2.png)
+
+3. 每次出队一个顶点，比如2，找出他关联的顶点1，3，5，6，依次判断是否访问过，没有访问标记访问，并且入队。
+![](.graph_images/bfs_process3.png)
+
+4. 顶点5出队，与5关联的只有2，但是已经访问过。
+5. 顶点6出队，与6相关的有2，7，只有7没有访问过，标记访问过，并入队。
+6. 同理处理其他。
+7. 最终结果
+![](.graph_images/bfs_process4.png)
 
 #### 非连通图处理
 ![img.png](.graph_images/bfs2.png)

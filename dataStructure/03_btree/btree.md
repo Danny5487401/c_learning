@@ -48,6 +48,17 @@
 ![](dataStructure/03_btree/.btree_images/layer_read_process.png)
 借助队列，出队时，帮左右子元素入队。
 
+#### 过程
+1. 使用辅助队列，根节点1入队
+![](.btree_images/layer_process1.png)
+
+2. 来个循环，出个节点1，把他的所有子节点2，3，4入队
+![](.btree_images/layer_process2.png)
+
+3. 同理，出队2，把2的子节点5，6入队，直到队列为空
+![](.btree_images/layer_process3.png)
+
+
 ### 三种遍历方式
 ![](.btree_images/three_ways_of_read_binary_tree.png)
 
