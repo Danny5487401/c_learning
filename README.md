@@ -45,7 +45,12 @@
 - [2 link list链表](dataStructure/02_link_list/link_list.md)  
   - [2.1 带头结点的单链表的实现，数据元素是整数](dataStructure/02_link_list/linklist1.c)
   - [2.2 带头结点的单链表的实现，数据元素是结构体](dataStructure/02_link_list/linklist2.c)
-  
+  - [2.3 不带头结点的单链表的实现](dataStructure/02_link_list/linklist3.c)
+  - [2.4 带头结点的双链表的实现，数据元素是整数](dataStructure/02_link_list/linklist4.c)
+  - [2.5 带头结点的循环单链表的实现，数据元素是整数](dataStructure/02_link_list/linklist5.c)
+  - 2.6 常见的考题
+
+
 - [3 B 树](dataStructure/03_btree/btree.md)
   - [3.1 二叉树的层次遍历](dataStructure/03_btree/btree1.c)
   - [3.2 二叉树的前序遍历、中序遍历和后序遍历，包括递归和非递归两种方法](dataStructure/03_btree/btree2.c)
@@ -74,11 +79,11 @@
   - [7.3 顺序栈检查括号是否匹配，支持()[]{}三种括号](dataStructure/07_stack/seqstack2.c)
   - [7.4 用顺序栈实现中缀表达式转后缀表达式](dataStructure/07_stack/seqstack3.c)
   
-- 8 排序算法
+- [8 排序算法](dataStructure/08_sort/sort.md)
   - 8.1 冒泡排序
   - 8.2 桶排序
   - 8.3 计数排序
-  - 8.4 堆排序
+  - [8.4 堆排序](dataStructure/08_sort/heapsort.c)
   - 8.5 插入排序
   - 8.6 归并排序
     - 递归的方法实现
@@ -93,6 +98,7 @@
 - [11 查找](dataStructure/11_search/search.md)
   - [11.1 顺序查找](dataStructure/11_search/seqsearch.c)
   - [11.1 二分查找](dataStructure/11_search/binsearch.c)
+- [12 递归](dataStructure/12_recursive/recursive.md)
   
 - [Clang 及 LLVM 介绍](Clang.md)
 
