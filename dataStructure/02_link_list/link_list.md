@@ -43,13 +43,18 @@ Note: 写法顺序不能反
 
 ## 单链表的反转
 ![](.link_list_images/reverse_link_list.png)
+分类：
 - 反转部分
 - 反转全部
 
 ![](.link_list_images/reverse_process.png)
 方式一：原地反转链表流程
-1. 取出所有数据
-2. 然后一个一个插数据
+1. 断开节点，取出所有数据
+![](.link_list_images/reverse_process_5.png)
+2. 然后一个一个插数据在头节点的后面
+![](.link_list_images/reverse_process_6.png)
+![](.link_list_images/reverse_process_7.png)
+![](.link_list_images/reverse_process_8.png)
 
 方式二：新空间反转链表流程
 ![](.link_list_images/reverse_process_1.png)
