@@ -35,7 +35,7 @@
 - 10 信号量
 - 11 静态库和动态库
 
-## 第三章 数据结构与算法
+## 第三章 数据结构
 
 - [1 linear list线性表](dataStructure/01_linear_list/linear_list.md)
   - [1.1 顺序表 静态实现，数据元素是整数](dataStructure/01_linear_list/seqlist1.c)
@@ -100,6 +100,10 @@
   - [11.1 二分查找](dataStructure/11_search/binsearch.c)
 - [12 递归](dataStructure/12_recursive/recursive.md)
   
-- [Clang 及 LLVM 介绍](Clang.md)
+## [第四章 algorithm算法](algorithm/algorithm.md)
+
+##  [Clang 及 LLVM 介绍](Clang.md)
 
 注意 ⚠️：**_中文注释乱码时，设置 vscode:files.autoGuessEncoding 项的值改为 true 即可，数据结构中推荐编码格式为 GBK_**
+
+
