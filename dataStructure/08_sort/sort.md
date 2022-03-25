@@ -1,6 +1,37 @@
 # 排序
 
-## 堆排序
+## 1. 选择排序
+![](.sort_images/select_sort.png)
+
+
+## 2. 插入排序
+![](.sort_images/insert_sort.png)
+
+## 3. 希尔排序
+![](.sort_images/shell_sort.png)
+
+1. 分组
+![](.sort_images/shell_process1.png)
+2. 取出数据进行插入排序
+![](.sort_images/shell_process2.png)
+![](.sort_images/shell_process3.png)
+
+3. 分组间隔变小
+![](.sort_images/shell_process4.png)
+![](.sort_images/shell_process5.png)
+
+4. 最后插入排序
+![](.sort_images/shell_process6.png)
+
+## 4. 归并排序
+![](.sort_images/merge_sort.png)
+![](.sort_images/merge_sort2.png)
+
+1. 切分成子序列
+2. 两两排序
+![](.sort_images/merge_sort3.png)
+
+## 5. 堆排序
 ![](.sort_images/heap_idea.png)
 
 可以用数组下标表示

@@ -84,14 +84,14 @@
   - 8.2 桶排序
   - 8.3 计数排序
   - [8.4 堆排序](dataStructure/08_sort/heapsort.c)
-  - 8.5 插入排序
+  - [8.5 插入排序](dataStructure/08_sort/insertsort.c)
   - 8.6 归并排序
-    - 递归的方法实现
-    - 循环的方法实现
+    - [递归的方法实现](dataStructure/08_sort/mergesort.c)
+    - [循环的方法实现](dataStructure/08_sort/mergesort1.c)
   - 8.7 快速排序
   - 8.8 基数排序
-  - 8.9 选择排序
-  - 8.10 希尔排序
+  - [8.9 选择排序](dataStructure/08_sort/selectsort1.c)
+  - [8.10 希尔排序](dataStructure/08_sort/shellsort.c)
   
 - [9 数组和广义表](dataStructure/09_array/array.md)
 - [10 串](dataStructure/10_string/string.md)
