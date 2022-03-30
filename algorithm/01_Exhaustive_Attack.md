@@ -23,6 +23,25 @@
 ![](.01_Exhaustive_Attack_images/strategy_tree.png)
 ![](.01_Exhaustive_Attack_images/bf_tsp3.png)
 
-7. 背包问题
+7. 背包问题--同理子集问题
 ![](.01_Exhaustive_Attack_images/bag.png)
 ![](.01_Exhaustive_Attack_images/bag_bf.png)
+![](.01_Exhaustive_Attack_images/knapSack_code.png)
+
+8. 迷宫问题
+![](.01_Exhaustive_Attack_images/maze.png)
+
+9. N皇后问题
+![](.01_Exhaustive_Attack_images/n_queen.png)
+![](.01_Exhaustive_Attack_images/n_queen1.png)
+
+## 解决方式
+多步决策-->空间状态搜索
+![](.01_Exhaustive_Attack_images/make_decision.png)
+![](.01_Exhaustive_Attack_images/state_search.png)
+- 线型
+![](.01_Exhaustive_Attack_images/state_space.png)
+- 树型
+![](.01_Exhaustive_Attack_images/tree_state.png)
+- 图形
+![](.01_Exhaustive_Attack_images/graph_state.png)

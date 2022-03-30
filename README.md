@@ -101,6 +101,7 @@
 - [12 递归](dataStructure/12_recursive/recursive.md)
   
 ## [第四章 algorithm算法](algorithm/algorithm.md)
+    - 1 蛮力法
 
 ##  [Clang 及 LLVM 介绍](Clang.md)
 
