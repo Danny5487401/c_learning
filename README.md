@@ -35,6 +35,8 @@
 - 9 套接字 socket
 - 10 信号量
 - 11 静态库和动态库
+- [12 signal信号](c++_code/12_signal/signal.md)
+- [13 线程](c++_code/13_thread/thread.md)
 
 ## 第三章 数据结构与算法
 
