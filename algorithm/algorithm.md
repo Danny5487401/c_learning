@@ -39,3 +39,15 @@
 
 1. 上界O
 ![](.algorithm_images/O_symbol.png)
+
+2. 下界
+![](.algorithm_images/symbol_2.png)
+
+## 递归方程的求解
+![](.algorithm_images/iterate_result.png)
+
+## 数学知识
+### 数列和
+![](.algorithm_images/number_sum.png)
+![](.algorithm_images/number_sum2.png)
+![](.algorithm_images/number_sum3.png)
