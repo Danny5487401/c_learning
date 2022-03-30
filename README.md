@@ -22,7 +22,10 @@
 
 ## [第二章 c++语言学习](c++_code/c++.md)
 - [1 Function Overloading函数重载](c++_code/01_func/func_reload.md)
-- 2 类和对象
+- [2 类和对象](c++_code/02_class_n_object/class.md)
+    - [2.1 C++结构体相对C新特性](c++_code/02_class_n_object/method.cpp)
+    - [2.2 C++ 类和对象](c++_code/02_class_n_object/class.cpp)
+    - [2.3 文件操作封装成一个类](c++_code/02_class_n_object/class_member.cpp)
 - 3 引用
 - 4 运算符重载
 - 5 STL（Standard Template Library, 标准模板库）- string 类
