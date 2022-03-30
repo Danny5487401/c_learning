@@ -108,9 +108,32 @@ DFS和BFS是很多图算法的基础。不过，要获得效率更高的图的�
 ### BFS (Breadth First Search 广度优先遍历）-->树的层次遍历
 ![img.png](.graph_images/bfs.png)
 
+- 连通图
+![](.graph_images/bfs_code1.png)
+
+- 非连通图
+![](.graph_images/bfs_code2.png)
+
 广度优先遍历（Breadth First Search，简称BFS），又称为广度优先搜索。这种搜索方法可以用队列实现。
 
+
 遍历思想：首先，从图的某个顶点v0出发，访问了v0之后，依次访问与v0相邻的未被访问的顶点，然后分别从这些顶点出发，广度优先遍历，直至所有的顶点都被访问完。
+
+#### 过程
+1. 图可以从任意节点开始，
+![](.graph_images/bfs_process1.png)
+
+2. 这里先访问2，2入队，标记已经访问。
+![](.graph_images/bfs_process2.png)
+
+3. 每次出队一个顶点，比如2，找出他关联的顶点1，3，5，6，依次判断是否访问过，没有访问标记访问，并且入队。
+![](.graph_images/bfs_process3.png)
+
+4. 顶点5出队，与5关联的只有2，但是已经访问过。
+5. 顶点6出队，与6相关的有2，7，只有7没有访问过，标记访问过，并入队。
+6. 同理处理其他。
+7. 最终结果
+![](.graph_images/bfs_process4.png)
 
 #### 非连通图处理
 ![img.png](.graph_images/bfs2.png)
@@ -126,17 +149,40 @@ DFS和BFS是很多图算法的基础。不过，要获得效率更高的图的�
 ![img.png](.graph_images/bfs_tree.png)
 
 ### DFS (Depth First Search 深度优先搜索)-->树的先序遍历
-![img.png](.graph_images/dfs.png)
+![img.png](.graph_images/dfs.png) 
 深度优先遍历（Depth First Search，简称DFS），也被称为深度优先搜索。这种搜索方法可以用栈来实现，类似老鼠走迷宫。
 
 遍历思想：首先从图中某个顶点v0出发，访问此顶点，然后依次从v相邻的顶点出发深度优先遍历，直至图中所有与v路径相通的顶点都被访问了；
 若此时尚有顶点未被访问，则从中选一个顶点作为起始点，重复上述过程，直到所有的顶点都被访问
+
+1. 从顶点3出发，所以3入栈
+![](.graph_images/dfs_process1.png)
+2. 与3相关的有1,2,4,7,8; 因为1在链表的前面，所以1入栈。
+![](.graph_images/dfs_process2.png)
+3. 与1相关的有2，4；因为2在链表的前面，所以2入栈。
+![](.graph_images/dfs_process3.png)
+4. 与2相关的有1，3，5，6；因为1，3被访问过，所以5入栈。
+![](.graph_images/dfs_process4.png)
+5. 与5相关的有2，但是2已经访问过，所以5可以出栈。
+![](.graph_images/dfs_process5.png)
+6. 与2相关的有1，3，5，6,但是1，3，5已经访问过，所以6入栈。
+![](.graph_images/dfs_proceess6.png)
+7. 与6相关的有2，7，但是2已经访问过，所以7入栈。
+![](.graph_images/dfs_process7.png)
+8. 与7相关的有3，6，但是都被访问过了，所以7出栈。同理6，2出栈。
+![](.graph_images/dfs_process8.png)
+9. 最终结果
+![](.graph_images/dfs_process9.png)
+
 
 #### 效率分析
 ![img.png](.graph_images/dfs_productive.png)
 #### dfs生成树
 ![img.png](.graph_images/dfs_tree.png)
 
+
+#### DFS案例
+全排列：leetCode链接：https://leetcode-cn.com/problems/permutations/
 
 ## 最小生成树(MST)
 ![](.graph_images/MST.png)
