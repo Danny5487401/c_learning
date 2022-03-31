@@ -28,7 +28,9 @@
     - [2.1 C++结构体相对C新特性](c++_code/02_class_n_object/method.cpp)
     - [2.2 C++ 类和对象](c++_code/02_class_n_object/class.cpp)
     - [2.3 文件操作封装成一个类](c++_code/02_class_n_object/class_member.cpp)
-- 3 引用
+- [3 &符号特性(引用)](c++_code/03_ref/ref.md)
+    - [3.1 引用用于函数的参数](c++_code/03_ref/ref.cpp)
+    - [3.2 引用用于函数的返回值](c++_code/03_ref/ref_return.cpp)
 - 4 运算符重载
 - 5 STL（Standard Template Library, 标准模板库）- string 类
 - 6 STL（Standard Template Library, 标准模板库）- vector 容器
