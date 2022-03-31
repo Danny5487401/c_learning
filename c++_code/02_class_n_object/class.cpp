@@ -14,7 +14,7 @@ public:
  
 int main()
 {
-  CGirl Girl;   // 实例化一个Girl对象
+  CGirl Girl;   // 实例化一个Girl对象,
  
   // 访问对象的成员变量，进行赋值
   strcpy(Girl.m_name,"武则天");
