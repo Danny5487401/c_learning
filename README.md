@@ -100,8 +100,9 @@
   - [11.1 二分查找](dataStructure/11_search/binsearch.c)
 - [12 递归](dataStructure/12_recursive/recursive.md)
   
-## [第四章 algorithm算法](algorithm/algorithm.md)
-    - 1 蛮力法
+## [第四章 algorithm算法](algorithm/algorithm.md) 
+  - [1 蛮力法](algorithm/01_Exhaustive_Attack.md)
+  - [2 分治法](algorithm/02_divide_n_conquer.md)
 
 ##  [Clang 及 LLVM 介绍](Clang.md)
 

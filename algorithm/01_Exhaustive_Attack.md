@@ -45,3 +45,8 @@
 ![](.01_Exhaustive_Attack_images/tree_state.png)
 - 图形
 ![](.01_Exhaustive_Attack_images/graph_state.png)
+
+处理方式
+![](.01_Exhaustive_Attack_images/bfs_dfs.png)
+1. DFS 深度优先搜索（回溯法）
+![](.01_Exhaustive_Attack_images/dfs.png)
