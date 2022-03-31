@@ -101,8 +101,9 @@
 - [12 递归](dataStructure/12_recursive/recursive.md)
   
 ## [第四章 algorithm算法](algorithm/algorithm.md) 
-  - [1 蛮力法](algorithm/01_Exhaustive_Attack.md)
-  - [2 分治法](algorithm/02_divide_n_conquer.md)
+  - [1 蛮力法Exhausitive Attack](algorithm/01_Exhaustive_Attack.md)
+  - [2 分治法Divide and Conquer](algorithm/02_divide_n_conquer.md)
+  - [3 贪心法Greedy Method](algorithm/03_greedy_method.md)
 
 ##  [Clang 及 LLVM 介绍](Clang.md)
 

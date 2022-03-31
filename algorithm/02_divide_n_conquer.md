@@ -1,5 +1,5 @@
 # 分治法
-![](.02_fenzhi_images/fenzhi.png)
+![](algorithm/.02_divide_n_conquer_images/fenzhi.png)
 
 
 ## 分类
