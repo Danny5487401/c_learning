@@ -33,7 +33,7 @@
     - [3.2 引用用于函数的返回值](c++_code/03_ref/ref_return.cpp)
 - 4 运算符重载
 - [5 STL（Standard Template Library, 标准模板库）- string 类](c++_code/05_strings/string.md)
-- 6 STL（Standard Template Library, 标准模板库）- vector 容器
+- [6 STL（Standard Template Library, 标准模板库）- vector 容器](c++_code/06_vector/vecor.md)
 - 7 类的继承
 - 8 类的多态
 - 9 套接字 socket

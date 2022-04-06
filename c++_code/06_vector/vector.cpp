@@ -1,4 +1,5 @@
-// 与string类一样, 向量vector 同属于STL（Standard Template Library, 标准模板库）中的定义的类, vector是一个封装了动态数组的顺序容器（Sequence Container），它能够存放各种类型的数据和对象。
+// 与string类一样, 向量vector 同属于STL（Standard Template Library, 标准模板库）中的定义的类, vector是一个封装了动态数组的顺序容器
+// （Sequence Container），它能够存放各种类型的数据和对象。
 
 // 可以简单的认为vector容器是一个能够存放任意类型的动态数组，与数组相比，vector 容器的优点在于它能够根据需要自动调整的大小，随时放入更多的元素。此外, vector 也提供了成员函数对自身进行操作。
 #include <stdio.h>
@@ -32,6 +33,6 @@ int main ()
     printf("vheight[%d]=%d\n",ii,vheight[ii]);
   }
     
-    // 容器是类，有析构函数，析构函数中会自动清空容器中的元素，释放内存资源，不需要程序员担
+    // 容器是类，有析构函数，析构函数中会自动清空容器中的元素，释放内存资源，不需要程序员担心
   // vheight.clear();  // 清空容器，可以不写。
 }
