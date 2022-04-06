@@ -82,3 +82,103 @@ strlen 函数计算的是字符串的实际长度，遇到第一个0结束。
 函数返回值一定是size_t，是无符号的整数，即typedef unsigned int size_t。
 
 如果您只定义字符串没有初始化，求它的长度是没意义的，它会从首地址一直找下去，遇到0停止。
+
+
+2. 字符串复制或赋值
+```c
+char *strcpy(char* dest, const char* src);
+```
+功 能: 将参数src字符串拷贝至参数dest所指的地址。
+
+返回值: 返回参数dest的字符串起始地址。
+
+复制完字符串后，在dest后追加0。
+
+如果参数dest所指的内存空间不够大，可能会造成缓冲溢出的错误情况。
+
+```c
+char * strncpy(char* dest,const char* src, const size_t n);
+```
+功能：把src前n字符的内容复制到dest中
+
+返回值：dest字符串起始地址。
+
+如果src字符串长度小于n，则拷贝完字符串后，在dest后追加0，直到n个。
+
+如果src的长度大于等于n，就截取src的前n个字符，不会在dest后追加0。
+
+dest必须有足够的空间放置n个字符，否则可能会造成缓冲溢出的错误情况。
+
+
+3. 字符串拼接（strcat）
+```c
+char *strcat(char* dest,const char* src);
+```
+功能：将src字符串拼接到dest所指的字符串尾部。
+
+返回值：返回dest字符串起始地址。
+
+dest最后原有的结尾字符0会被覆盖掉，并在连接后的字符串的尾部再增加一个0。
+
+dest要有足够的空间来容纳要拼接的字符串，否则可能会造成缓冲溢出的错误情况。
+
+
+Note: 字符串的strcpy和strcat函数要求dest参数有足够的空间，否则会造成内存的泄漏，所以在实际开发中，定义字符串的时候，可以大一些，
+例如姓名，中国人的姓名以两三个汉字为主，最多五个，少数民族可能十几个，外国人的很长，喜欢在自己的名字前加上爷爷的名字和外公的名字，
+那么我们在定义变量的时候，可以char name[301];存放他祖宗十八代的名字也没有问题。
+      
+内存不值钱，程序的稳定性高于一切。
+
+```c
+char *strncat (char* dest,const char* src, const size_t n);
+```
+功能：将src字符串的前n个字符拼接到dest所指的字符串尾部。
+
+返回值：返回dest字符串的起始地址。
+
+如果n大于等于字符串src的长度，那么将src全部追加到dest的尾部，如果n小于字符串src的长度，只追加src的前n个字符。
+
+strncat会将dest字符串最后的0覆盖掉，字符追加完成后，再追加0。
+
+dest要有足够的空间来容纳要拼接的字符串，否则可能会造成缓冲溢出的错误情况。
+
+4. 字符串比较（strcmp、strncmp）
+```c
+int strcmp(const char *str1, const char *str2 );
+```
+功能：比较str1和str2的大小。
+
+返回值：相等返回0，str1大于str2返回1，str1小于str2返回-1；
+
+```c
+int strncmp(const char *str1,const char *str2 ,const size_t n);
+```
+功能：比较str1和str2前n个字符的大小。
+
+返回值：相等返回0，str1大于str2返回1，str1小于str2返回-1；
+
+两个字符串比较的方法是比较字符的ASCII码的大小，从两个字符串的第一个字符开始，如果分不出大小，就比较第二个字符，如果全部的字符都分不出大小，就返回0，表示两个字符串相等。
+
+在实际开发中，程序员一般只关心字符串是否相等，不关心哪个字符串更大或更小。
+
+
+5. 字符查找（strchr、strrchr）
+```c
+char *strchr(const char *s,const int c);
+```
+返回一个指向在字符串s中第一个出现c的位置，如果找不到，返回0。
+
+```c
+char *strrchr(const char *s,const int c);
+```
+返回一个指向在字符串s中最后一个出现c的位置，如果找不到，返回0。
+
+
+7. 字符串查找（strstr）
+```c
+char *strstr(const char* str,const char* substr);
+
+```
+功能：检索子串在字符串中首次出现的位置。
+
+返回值：返回字符串str中第一次出现子串substr的地址；如果没有检索到子串，则返回0
