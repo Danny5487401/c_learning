@@ -24,18 +24,25 @@
 
 ## [第二章 c++语言学习](c++_code/c++.md)
 - [1 Function Overloading函数重载](c++_code/01_func/func_reload.md)
-- 2 类和对象
-- 3 引用
+- [2 类和对象](c++_code/02_class_n_object/class.md)
+    - [2.1 C++结构体相对C新特性](c++_code/02_class_n_object/method.cpp)
+    - [2.2 C++ 类和对象](c++_code/02_class_n_object/class.cpp)
+    - [2.3 文件操作封装成一个类](c++_code/02_class_n_object/class_member.cpp)
+- [3 &符号特性(引用)](c++_code/03_ref/ref.md)
+    - [3.1 引用用于函数的参数](c++_code/03_ref/ref.cpp)
+    - [3.2 引用用于函数的返回值](c++_code/03_ref/ref_return.cpp)
 - 4 运算符重载
-- 5 STL（Standard Template Library, 标准模板库）- string 类
+- [5 STL（Standard Template Library, 标准模板库）- string 类](c++_code/05_strings/string.md)
 - 6 STL（Standard Template Library, 标准模板库）- vector 容器
 - 7 类的继承
 - 8 类的多态
 - 9 套接字 socket
 - 10 信号量
 - 11 静态库和动态库
+- [12 signal信号](c++_code/12_signal/signal.md)
+- [13 线程](c++_code/13_thread/thread.md)
 
-## 第三章 数据结构与算法
+## 第三章 数据结构
 
 - [1 linear list线性表](dataStructure/01_linear_list/linear_list.md)
   - [1.1 顺序表 静态实现，数据元素是整数](dataStructure/01_linear_list/seqlist1.c)
@@ -84,14 +91,14 @@
   - 8.2 桶排序
   - 8.3 计数排序
   - [8.4 堆排序](dataStructure/08_sort/heapsort.c)
-  - 8.5 插入排序
+  - [8.5 插入排序](dataStructure/08_sort/insertsort.c)
   - 8.6 归并排序
-    - 递归的方法实现
-    - 循环的方法实现
+    - [递归的方法实现](dataStructure/08_sort/mergesort.c)
+    - [循环的方法实现](dataStructure/08_sort/mergesort1.c)
   - 8.7 快速排序
   - 8.8 基数排序
-  - 8.9 选择排序
-  - 8.10 希尔排序
+  - [8.9 选择排序](dataStructure/08_sort/selectsort1.c)
+  - [8.10 希尔排序](dataStructure/08_sort/shellsort.c)
   
 - [9 数组和广义表](dataStructure/09_array/array.md)
 - [10 串](dataStructure/10_string/string.md)
@@ -100,6 +107,13 @@
   - [11.1 二分查找](dataStructure/11_search/binsearch.c)
 - [12 递归](dataStructure/12_recursive/recursive.md)
   
-- [Clang 及 LLVM 介绍](Clang.md)
+## [第四章 algorithm算法](algorithm/algorithm.md) 
+  - [1 蛮力法Exhausitive Attack](algorithm/01_Exhaustive_Attack.md)
+  - [2 分治法Divide and Conquer](algorithm/02_divide_n_conquer.md)
+  - [3 贪心法Greedy Method](algorithm/03_greedy_method.md)
+
+##  [Clang 及 LLVM 介绍](Clang.md)
 
 注意 ⚠️：**_中文注释乱码时，设置 vscode:files.autoGuessEncoding 项的值改为 true 即可，数据结构中推荐编码格式为 GBK_**
+
+
