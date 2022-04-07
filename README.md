@@ -31,10 +31,10 @@
 - [3 &符号特性(引用)](c++_code/03_ref/ref.md)
     - [3.1 引用用于函数的参数](c++_code/03_ref/ref.cpp)
     - [3.2 引用用于函数的返回值](c++_code/03_ref/ref_return.cpp)
-- 4 运算符重载
+- [4 运算符重载](c++_code/04_operation_reload/operator.md)
 - [5 STL（Standard Template Library, 标准模板库）- string 类](c++_code/05_strings/string.md)
 - [6 STL（Standard Template Library, 标准模板库）- vector 容器](c++_code/06_vector/vecor.md)
-- 7 类的继承
+- [7 类的继承](c++_code/07_inherit/inherit.md)
 - 8 类的多态
 - 9 套接字 socket
 - 10 信号量
@@ -104,7 +104,7 @@
 - [10 串](dataStructure/10_string/string.md)
 - [11 查找](dataStructure/11_search/search.md)
   - [11.1 顺序查找](dataStructure/11_search/seqsearch.c)
-  - [11.1 二分查找](dataStructure/11_search/binsearch.c)
+  - [11.2 二分查找](dataStructure/11_search/binsearch.c)
 - [12 递归](dataStructure/12_recursive/recursive.md)
   
 ## [第四章 algorithm算法](algorithm/algorithm.md) 
