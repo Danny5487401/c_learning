@@ -35,7 +35,9 @@
 - [5 STL（Standard Template Library, 标准模板库）- string 类](c++_code/05_strings/string.md)
 - [6 STL（Standard Template Library, 标准模板库）- vector 容器](c++_code/06_vector/vecor.md)
 - [7 类的继承](c++_code/07_inherit/inherit.md)
-- 8 类的多态
+- [8 类的多态](c++_code/08_polymorphism/polymorphism.md)
+    - [8.1 静态多态](c++_code/08_polymorphism/static_poly.cpp)
+    - [8.2 动态多态](c++_code/08_polymorphism/dynamic_poly.cpp)
 - 9 套接字 socket
 - 10 信号量
 - 11 静态库和动态库
