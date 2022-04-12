@@ -21,6 +21,9 @@
 - [9 函数声明与定义](c_code/09_func/func.md)
 - [10 头文件](c_code/10_head_files/head.md)
 - [11 排序 sort](c_code/11_sort/sort.c)
+- [12 库的生成](c_code/12_lib/lib.md)
+    - [12.1 静态库.a](c_code/12_lib/01_static_lib/main.c)
+    - [12.2 动态库.so](c_code/12_lib/02_dynamic_lib/main.c)
 
 ## [第二章 c++语言学习](c++_code/c++.md)
 - [1 Function Overloading函数重载](c++_code/01_func/func_reload.md)
@@ -116,6 +119,7 @@
   - [4 动态规划dynamic programming](algorithm/dynamic_programming.md)
 
 ##  [Clang 及 LLVM 介绍](Clang.md)
+##  [gcc介绍](gcc.md)
 
 注意 ⚠️：**_中文注释乱码时，设置 vscode:files.autoGuessEncoding 项的值改为 true 即可，数据结构中推荐编码格式为 GBK_**
 
