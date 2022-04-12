@@ -60,3 +60,25 @@ gcc main.c -o main -I./ -L./ -ladd
 export LD_LIBRARY_PATH="./:$LD_LIBRARY_PATH"
 ./main
 ```
+
+## 扩展 经典编译脚本
+```shell script
+gcc read.c -o read.exe -g -Wall "common/common.c" "common/ss_help.c" "lib/base64/base64.c" "lib/cJSON/cJSON.c" \
+-I"../include" -I"./common" -I"./lib" -I"./lib/base64" -I"./lib/cJSON"  \
+-lslm_runtime -lslm_control -lss_user_login  -lm -ldl -lpthread \
+-L"./" -L"./../lib64" \
+-Wl,-rpath="./" -Wl,-rpath="./../lib64"
+```
+解释
+```shell script
+gcc     编译工具
+read.c  主函数文件
+-o read.exe     编译成read.exe二进制
+-g              可以使用gdb调试
+-Wall           生成所有警告信息
+"common/common.c" "common/ss_help.c" "lib/base64/base64.c" "lib/cJSON/cJSON.c"  一起编译的其他C源文件
+-I"../include" -I"./common" -I"./lib" -I"./lib/base64" -I"./lib/cJSON"          依赖的头文件所在目录
+-lslm_runtime -lslm_control -lss_user_login  -lm -ldl -lpthread                 链接的动态库 libslm_runtime等，可用ldd read.exe查看
+-L"./" -L"./../lib64"   放在/lib和/usr/lib和/usr/local/lib里的库直接用-l参数就能链接，否则要加上库文件所在的目录名
+-Wl,-rpath=./           编译时指定的 -L  的目录，只是在程序链接成可执行文件时使用的。程序执行时动态链接库加载不到动态链接库，所以要加上。或者加上环境变量也可以：export LD_LIBRARY_PATH
+```
