@@ -17,6 +17,10 @@
 - [5 结构体](c_code/05_struct/struct.md)
 - [6 字符串及常用函数](c_code/06_string/string.md)
 - 7 指针
+    - [7.1 变量的地址](c_code/07_pointer/ptr.c)
+    - [7.2 对指针赋值](c_code/07_pointer/ptr_value.c)
+    - [7.3 函数的指针参数传递](c_code/07_pointer/pass_ptr.c)
+    - [7.4 数组的地址及运算](c_code/07_pointer/array_ptr.c)
 - [8 类型转换](c_code/08_int/transfer.c)
 - [9 函数声明与定义](c_code/09_func/func.md)
 - [10 头文件](c_code/10_head_files/head.md)

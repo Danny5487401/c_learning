@@ -280,7 +280,7 @@ n个关键字--分为n+1个区间，注意线画在关键字中间
 
 ## B+树----B树变形树
 ![](.btree_images/b+tree.png)
-![](.btree_images/ b+tree4.png)
+![](.btree_images/b+tree4.png)
 1. 查找:可以从根节点通过分块查找，也可以通过叶节点采用顺序查找
 2. 索引是是子树最大值,线连在子树中间
 
