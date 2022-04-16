@@ -9,14 +9,13 @@
 
 
 ## 第一章 c 语言学习
-
 - [1 基本结构编译过程](c_code/01_basic_structure/make_process.md)
 - [2 定义变量并初始化](c_code/02_distribute_value/book2.c)
 - [3 运算符](c_code/03_opration_symbol/book3.c)
 - [4 main 函数的参数](c_code/04_main_args/book4.c)
 - [5 结构体](c_code/05_struct/struct.md)
 - [6 字符串及常用函数](c_code/06_string/string.md)
-- 7 指针
+- [7 指针](c_code/07_pointer/ptr.md)
     - [7.1 变量的地址](c_code/07_pointer/ptr.c)
     - [7.2 对指针赋值](c_code/07_pointer/ptr_value.c)
     - [7.3 函数的指针参数传递](c_code/07_pointer/pass_ptr.c)
@@ -45,14 +44,14 @@
 - [8 类的多态](c++_code/08_polymorphism/polymorphism.md)
     - [8.1 静态多态](c++_code/08_polymorphism/static_poly.cpp)
     - [8.2 动态多态](c++_code/08_polymorphism/dynamic_poly.cpp)
-- 9 套接字 socket
+- [9 套接字 socket](c++_code/09_socket/socket.md)
 - 10 信号量
-- 11 静态库和动态库
+- [11 静态库和动态库](c++_code/11_lib/lib.md)
 - [12 signal信号](c++_code/12_signal/signal.md)
 - [13 线程](c++_code/13_thread/thread.md)
 
-## 第三章 数据结构
 
+## 第三章 数据结构
 - [1 linear list线性表](dataStructure/01_linear_list/linear_list.md)
   - [1.1 顺序表 静态实现，数据元素是整数](dataStructure/01_linear_list/seqlist1.c)
   - [1.2 顺序表 静态实现，数据元素是结构体](dataStructure/01_linear_list/seqlist2.c)

@@ -33,17 +33,19 @@ gcc main.c -o main -I./ -L./ -ladd
 
 
 ## 动态库
+![](.lib_images/dynamic_process.png)
 动态库需要使用 -shared 选项以及 -fPIC 选项
 ```shell script
 gcc -c -fPIC add.c -o a.o
 ```
--fPIC表示代码是和地址无关的，不需要被不同模块重定位
+-fPIC表示代码是和地址无关的，不需要被不同模块装载重定位load time relocation,其中地址无关的代码技术PIC，position independent code
 
-然后根据目标文件生成动态库.so文件
+然后根据目标文件生成动态库.so文件(动态共享对象dynamic shared objects)
 ```shell script
 gcc -shared -o libadd.so a.o
 ```
 * -shared 选项表示生成的是.so动态库文件
+
 上面的步骤可以直接写成:
 ```shell script
 gcc -shared -fPIC main.c -o libadd.so
