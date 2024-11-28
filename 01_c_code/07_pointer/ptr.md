@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [指针](#%E6%8C%87%E9%92%88)
+  - [变量的地址](#%E5%8F%98%E9%87%8F%E7%9A%84%E5%9C%B0%E5%9D%80)
+  - [指针](#%E6%8C%87%E9%92%88-1)
+  - [对指针赋值](#%E5%AF%B9%E6%8C%87%E9%92%88%E8%B5%8B%E5%80%BC)
+  - [空指针](#%E7%A9%BA%E6%8C%87%E9%92%88)
+  - [数组的地址](#%E6%95%B0%E7%BB%84%E7%9A%84%E5%9C%B0%E5%9D%80)
+  - [指针占用内存情况](#%E6%8C%87%E9%92%88%E5%8D%A0%E7%94%A8%E5%86%85%E5%AD%98%E6%83%85%E5%86%B5)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 指针
 
 ## 变量的地址

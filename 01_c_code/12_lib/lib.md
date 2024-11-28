@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [库](#%E5%BA%93)
+  - [静态库](#%E9%9D%99%E6%80%81%E5%BA%93)
+    - [具体操作](#%E5%85%B7%E4%BD%93%E6%93%8D%E4%BD%9C)
+  - [动态库](#%E5%8A%A8%E6%80%81%E5%BA%93)
+    - [配置动态库的方法](#%E9%85%8D%E7%BD%AE%E5%8A%A8%E6%80%81%E5%BA%93%E7%9A%84%E6%96%B9%E6%B3%95)
+  - [扩展 经典编译脚本](#%E6%89%A9%E5%B1%95-%E7%BB%8F%E5%85%B8%E7%BC%96%E8%AF%91%E8%84%9A%E6%9C%AC)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 库
 库是一种可执行代码的二进制形式，可以直接被操作系统载入内存执行。
 

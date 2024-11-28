@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [编译](#%E7%BC%96%E8%AF%91)
+  - [编译过程](#%E7%BC%96%E8%AF%91%E8%BF%87%E7%A8%8B)
+    - [举例](#%E4%B8%BE%E4%BE%8B)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 编译
 
 ## 编译过程

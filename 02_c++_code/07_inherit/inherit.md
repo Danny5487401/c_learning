@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [继承和派生](#%E7%BB%A7%E6%89%BF%E5%92%8C%E6%B4%BE%E7%94%9F)
+  - [基类和派生类](#%E5%9F%BA%E7%B1%BB%E5%92%8C%E6%B4%BE%E7%94%9F%E7%B1%BB)
+  - [基类与派生类的指针](#%E5%9F%BA%E7%B1%BB%E4%B8%8E%E6%B4%BE%E7%94%9F%E7%B1%BB%E7%9A%84%E6%8C%87%E9%92%88)
+  - [多继承](#%E5%A4%9A%E7%BB%A7%E6%89%BF)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 继承和派生
 
 继承是面向对象程序设计中最重要的一个概念。继承允许我们根据一个类来定义另一个类，达到了代码功能重用效果。

@@ -1,8 +1,22 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [C_learning 学习C语言](#c_learning-%E5%AD%A6%E4%B9%A0c%E8%AF%AD%E8%A8%80)
+  - [经典语句](#%E7%BB%8F%E5%85%B8%E8%AF%AD%E5%8F%A5)
+  - [第一章 c 语言学习](#%E7%AC%AC%E4%B8%80%E7%AB%A0-c-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0)
+  - [第二章 c++语言学习](#%E7%AC%AC%E4%BA%8C%E7%AB%A0-c%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0)
+  - [编译器](#%E7%BC%96%E8%AF%91%E5%99%A8)
+  - [参考](#%E5%8F%82%E8%80%83)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # C_learning 学习C语言
 
 ![](.assets/img/.README_images/c_language.png)
 
-参考 **c 语言技术网** https://www.freecplus.net/dad5c75aa6214160a1937cc09ed33135.html
+注意 ⚠️：**_中文注释乱码时，设置 vscode:files.autoGuessEncoding 项的值改为 true 即可，数据结构中推荐编码格式为 GBK_**
+
 
 ## 经典语句
 
@@ -54,10 +68,13 @@
 - [12 signal信号](02_c++_code/12_signal/signal.md)
 - [13 线程](02_c++_code/13_thread/thread.md)
 
-## [LLVM 及子项目Clang-->为了替代 GCC](Clang.md)
+## 编译器
+- 1 [LLVM 及子项目Clang-->为了替代 GCC](Clang.md)
+- 2 [GCC (GNU Compiler Collection)](gcc.md)
+- 3 MSVC (Microsoft Visual C++)：微软开发的编译器，通常与Visual Studio集成
 
-## [gcc介绍](gcc.md)
-
-注意 ⚠️：**_中文注释乱码时，设置 vscode:files.autoGuessEncoding 项的值改为 true 即可，数据结构中推荐编码格式为 GBK_**
 
 
+
+## 参考
+- [c 语言技术网](https://www.infoq.cn/profile/ABEEA6B21FEBE9/publish)

@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [LLVM（Low Level Virtual Machine 虚拟机）](#llvmlow-level-virtual-machine-%E8%99%9A%E6%8B%9F%E6%9C%BA)
+  - [传统编译器的工作原理](#%E4%BC%A0%E7%BB%9F%E7%BC%96%E8%AF%91%E5%99%A8%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86)
+    - [案例：iOS 的编译器架构](#%E6%A1%88%E4%BE%8Bios-%E7%9A%84%E7%BC%96%E8%AF%91%E5%99%A8%E6%9E%B6%E6%9E%84)
+  - [Clang](#clang)
+    - [LLVM 和 Clang 关系](#llvm-%E5%92%8C-clang-%E5%85%B3%E7%B3%BB)
+    - [至于为什么有了 GCC 还要开发 Clang？](#%E8%87%B3%E4%BA%8E%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9C%89%E4%BA%86-gcc-%E8%BF%98%E8%A6%81%E5%BC%80%E5%8F%91-clang)
+    - [使用 Clang](#%E4%BD%BF%E7%94%A8-clang)
+  - [参考资料](#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # LLVM（Low Level Virtual Machine 虚拟机）
 
 > The name "LLVM" itself is not an acronym; it is the full name of the project.

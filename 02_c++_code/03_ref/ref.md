@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [&引用](#%E5%BC%95%E7%94%A8)
+  - [使用](#%E4%BD%BF%E7%94%A8)
+  - [引用的应用](#%E5%BC%95%E7%94%A8%E7%9A%84%E5%BA%94%E7%94%A8)
+    - [1. 用于函数的参数](#1-%E7%94%A8%E4%BA%8E%E5%87%BD%E6%95%B0%E7%9A%84%E5%8F%82%E6%95%B0)
+    - [2. 用于函数的返回值](#2-%E7%94%A8%E4%BA%8E%E5%87%BD%E6%95%B0%E7%9A%84%E8%BF%94%E5%9B%9E%E5%80%BC)
+    - [应用经验](#%E5%BA%94%E7%94%A8%E7%BB%8F%E9%AA%8C)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # &引用
 对于习惯使用C进行开发的程序员来说，&符号是取地址符，但是在C++中，它除了取地址，还有其它的用途，叫做引用（reference），引用是C++的新特性
 引用就是变量的别名，对引用的操作与对变量直接操作完全一样。

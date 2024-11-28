@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [GCC（GNU Compiler Collection，GNU 编译器套装）](#gccgnu-compiler-collectiongnu-%E7%BC%96%E8%AF%91%E5%99%A8%E5%A5%97%E8%A3%85)
+  - [版本](#%E7%89%88%E6%9C%AC)
+  - [基本使用](#%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8)
+  - [组件及命令](#%E7%BB%84%E4%BB%B6%E5%8F%8A%E5%91%BD%E4%BB%A4)
+  - [ElF可执行链接格式 （ Executable and Linking Format)](#elf%E5%8F%AF%E6%89%A7%E8%A1%8C%E9%93%BE%E6%8E%A5%E6%A0%BC%E5%BC%8F--executable-and-linking-format)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # GCC（GNU Compiler Collection，GNU 编译器套装）
 
 一套由 GNU 开发的编程语言编译器。

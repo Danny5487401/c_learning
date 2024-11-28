@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [线程](#%E7%BA%BF%E7%A8%8B)
+  - [线程的使用](#%E7%BA%BF%E7%A8%8B%E7%9A%84%E4%BD%BF%E7%94%A8)
+    - [1. 创建线程](#1-%E5%88%9B%E5%BB%BA%E7%BA%BF%E7%A8%8B)
+    - [2. 线程的终止](#2-%E7%BA%BF%E7%A8%8B%E7%9A%84%E7%BB%88%E6%AD%A2)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 线程
 和多进程相比，多线程是一种比较节省资源的多任务操作方式。启动一个新的进程必须分配给它独立的地址空间，每个进程都有自己的堆栈段和数据段，系统开销比较高，进行数据的传递只能通过进行间通信的方式进行。在同一个进程中，可以运行多个线程，运行于同一个进程中的多个线程，它们彼此之间使用相同的地址空间，共享全局变量和对象，启动一个线程所消耗的资源比启动一个进程所消耗的资源要少。
 

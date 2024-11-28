@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [C 语言](#c-%E8%AF%AD%E8%A8%80)
+  - [应用](#%E5%BA%94%E7%94%A8)
+  - [学习原因](#%E5%AD%A6%E4%B9%A0%E5%8E%9F%E5%9B%A0)
+  - [语法](#%E8%AF%AD%E6%B3%95)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # C 语言
 
 ## 应用

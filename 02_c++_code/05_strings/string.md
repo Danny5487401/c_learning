@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [标准模板库中string](#%E6%A0%87%E5%87%86%E6%A8%A1%E6%9D%BF%E5%BA%93%E4%B8%ADstring)
+  - [使用](#%E4%BD%BF%E7%94%A8)
+    - [1. string的声明](#1-string%E7%9A%84%E5%A3%B0%E6%98%8E)
+    - [2. string的重载的操作符](#2-string%E7%9A%84%E9%87%8D%E8%BD%BD%E7%9A%84%E6%93%8D%E4%BD%9C%E7%AC%A6)
+    - [3. 最重要的一个成员函数](#3-%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E4%B8%80%E4%B8%AA%E6%88%90%E5%91%98%E5%87%BD%E6%95%B0)
+    - [应用经验](#%E5%BA%94%E7%94%A8%E7%BB%8F%E9%AA%8C)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 标准模板库中string
 
 在C语言中，用0结束的字符数组表示字符串，有些不方便：1）数组定义后大小不能改变；2）存入的内容只能比数组小，不能大，如果不小心存多了，会引起内存的溢出，这些问题让程序员有些郁闷。

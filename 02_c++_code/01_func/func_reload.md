@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Function Overloading函数重载](#function-overloading%E5%87%BD%E6%95%B0%E9%87%8D%E8%BD%BD)
+  - [C++ 是如何做到函数重载](#c-%E6%98%AF%E5%A6%82%E4%BD%95%E5%81%9A%E5%88%B0%E5%87%BD%E6%95%B0%E9%87%8D%E8%BD%BD)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Function Overloading函数重载
 
 在实际开发中，有时候我们需要实现几个功能类似的函数，例如从XML字符串中解析字段，字段的类型可能是int、long、double。

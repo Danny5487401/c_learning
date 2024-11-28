@@ -1,3 +1,20 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [C结构体](#c%E7%BB%93%E6%9E%84%E4%BD%93)
+  - [结构体变量](#%E7%BB%93%E6%9E%84%E4%BD%93%E5%8F%98%E9%87%8F)
+  - [占用内存的情况](#%E5%8D%A0%E7%94%A8%E5%86%85%E5%AD%98%E7%9A%84%E6%83%85%E5%86%B5)
+  - [结构体的变量名](#%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E5%8F%98%E9%87%8F%E5%90%8D)
+  - [结构体初始化](#%E7%BB%93%E6%9E%84%E4%BD%93%E5%88%9D%E5%A7%8B%E5%8C%96)
+  - [成员的访问](#%E6%88%90%E5%91%98%E7%9A%84%E8%AE%BF%E9%97%AE)
+  - [结构体指针](#%E7%BB%93%E6%9E%84%E4%BD%93%E6%8C%87%E9%92%88)
+  - [结构体的复制](#%E7%BB%93%E6%9E%84%E4%BD%93%E7%9A%84%E5%A4%8D%E5%88%B6)
+  - [结构体作为函数的参数](#%E7%BB%93%E6%9E%84%E4%BD%93%E4%BD%9C%E4%B8%BA%E5%87%BD%E6%95%B0%E7%9A%84%E5%8F%82%E6%95%B0)
+  - [memset和bzero函数](#memset%E5%92%8Cbzero%E5%87%BD%E6%95%B0)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # C结构体
 
 使用结构体（struct）来存放一组不同类型的数据，语法如下：

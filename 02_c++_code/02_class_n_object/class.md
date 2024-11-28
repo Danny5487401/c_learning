@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [C++结构体](#c%E7%BB%93%E6%9E%84%E4%BD%93)
+  - [C++ 类和对象](#c-%E7%B1%BB%E5%92%8C%E5%AF%B9%E8%B1%A1)
+  - [对象的指针](#%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%8C%87%E9%92%88)
+  - [对象的初始化和占用内存的大小](#%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96%E5%92%8C%E5%8D%A0%E7%94%A8%E5%86%85%E5%AD%98%E7%9A%84%E5%A4%A7%E5%B0%8F)
+  - [类成员的访问权限](#%E7%B1%BB%E6%88%90%E5%91%98%E7%9A%84%E8%AE%BF%E9%97%AE%E6%9D%83%E9%99%90)
+  - [成员变量的命名](#%E6%88%90%E5%91%98%E5%8F%98%E9%87%8F%E7%9A%84%E5%91%BD%E5%90%8D)
+  - [构造函数](#%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0)
+  - [析构函数](#%E6%9E%90%E6%9E%84%E5%87%BD%E6%95%B0)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # C++结构体
 C语言的结构体不允许有函数，定义结构体变量的方法是：
 ```c

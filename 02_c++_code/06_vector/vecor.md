@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [vector容器](#vector%E5%AE%B9%E5%99%A8)
+  - [容器的定义](#%E5%AE%B9%E5%99%A8%E7%9A%84%E5%AE%9A%E4%B9%89)
+  - [函数](#%E5%87%BD%E6%95%B0)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # vector容器
 
 我们在声明数组的时候，采用的是datatype  arrayname[len]的形式，数组在分配之后，不能调整大小，删除和插入数据时操作十分的繁琐，虽然可以采用链表，但是链表的操作更麻烦

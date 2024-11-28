@@ -1,3 +1,13 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [C++的library库使用](#c%E7%9A%84library%E5%BA%93%E4%BD%BF%E7%94%A8)
+  - [1.静态库使用](#1%E9%9D%99%E6%80%81%E5%BA%93%E4%BD%BF%E7%94%A8)
+  - [2.  动态库使用](#2--%E5%8A%A8%E6%80%81%E5%BA%93%E4%BD%BF%E7%94%A8)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # C++的library库使用
 
 ## 1.静态库使用

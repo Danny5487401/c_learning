@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Sting字符串](#sting%E5%AD%97%E7%AC%A6%E4%B8%B2)
+  - [占用内存的情况](#%E5%8D%A0%E7%94%A8%E5%86%85%E5%AD%98%E7%9A%84%E6%83%85%E5%86%B5)
+  - [字符串的初始化](#%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96)
+  - [字符串与指针](#%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%8E%E6%8C%87%E9%92%88)
+  - [字符串越界](#%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%B6%8A%E7%95%8C)
+  - [字符串常用的库函数](#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%B8%B8%E7%94%A8%E7%9A%84%E5%BA%93%E5%87%BD%E6%95%B0)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Sting字符串
 
 ![](.string_images/string_vs_char.png)

@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [signal信号](#signal%E4%BF%A1%E5%8F%B7)
+  - [信号作用](#%E4%BF%A1%E5%8F%B7%E4%BD%9C%E7%94%A8)
+  - [signal库函数](#signal%E5%BA%93%E5%87%BD%E6%95%B0)
+    - [应用](#%E5%BA%94%E7%94%A8)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # signal信号
 signal信号是进程之间相互传递消息的一种方法，信号全称为软中断信号，也有人称作软中断，从它的命名可以看出，它的实质和使用很象中断。
 

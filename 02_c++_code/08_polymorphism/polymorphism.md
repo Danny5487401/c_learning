@@ -1,3 +1,16 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [多态](#%E5%A4%9A%E6%80%81)
+  - [静态多态](#%E9%9D%99%E6%80%81%E5%A4%9A%E6%80%81)
+  - [动态多态](#%E5%8A%A8%E6%80%81%E5%A4%9A%E6%80%81)
+  - [虚函数](#%E8%99%9A%E5%87%BD%E6%95%B0)
+  - [纯虚函数](#%E7%BA%AF%E8%99%9A%E5%87%BD%E6%95%B0)
+  - [C++ 接口（抽象类）](#c-%E6%8E%A5%E5%8F%A3%E6%8A%BD%E8%B1%A1%E7%B1%BB)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 多态
 多态按字面的意思就是多种形态。当类之间存在继承关系时，就可能会用到多态，调用成员函数时，会根据对象的类型来执行不同的函数。
 

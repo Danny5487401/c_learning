@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Func函数](#func%E5%87%BD%E6%95%B0)
+  - [自定义函数的声明](#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%87%BD%E6%95%B0%E7%9A%84%E5%A3%B0%E6%98%8E)
+  - [自定义函数的定义](#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%87%BD%E6%95%B0%E7%9A%84%E5%AE%9A%E4%B9%89)
+  - [自定义函数代码的组织](#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%87%BD%E6%95%B0%E4%BB%A3%E7%A0%81%E7%9A%84%E7%BB%84%E7%BB%87)
+  - [库函数](#%E5%BA%93%E5%87%BD%E6%95%B0)
+  - [调用函数的方法](#%E8%B0%83%E7%94%A8%E5%87%BD%E6%95%B0%E7%9A%84%E6%96%B9%E6%B3%95)
+  - [const约束](#const%E7%BA%A6%E6%9D%9F)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Func函数
 
 ## 自定义函数的声明

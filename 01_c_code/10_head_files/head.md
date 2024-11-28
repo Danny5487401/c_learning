@@ -1,3 +1,17 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [头文件](#%E5%A4%B4%E6%96%87%E4%BB%B6)
+  - [头文件和源文件的区别](#%E5%A4%B4%E6%96%87%E4%BB%B6%E5%92%8C%E6%BA%90%E6%96%87%E4%BB%B6%E7%9A%84%E5%8C%BA%E5%88%AB)
+    - [.c文件和.h文件的概念与联系](#c%E6%96%87%E4%BB%B6%E5%92%8Ch%E6%96%87%E4%BB%B6%E7%9A%84%E6%A6%82%E5%BF%B5%E4%B8%8E%E8%81%94%E7%B3%BB)
+    - [分开的原因](#%E5%88%86%E5%BC%80%E7%9A%84%E5%8E%9F%E5%9B%A0)
+  - [头文件的内容](#%E5%A4%B4%E6%96%87%E4%BB%B6%E7%9A%84%E5%86%85%E5%AE%B9)
+  - [作用](#%E4%BD%9C%E7%94%A8)
+  - [头文件格式说明](#%E5%A4%B4%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E8%AF%B4%E6%98%8E)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # 头文件
 .h中一般放的是同名.c文件中定义的变量、数组、函数的声明，需要让.c外部使用的声明。
 

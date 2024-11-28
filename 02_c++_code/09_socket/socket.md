@@ -1,3 +1,20 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Socket](#socket)
+  - [socket的分类](#socket%E7%9A%84%E5%88%86%E7%B1%BB)
+  - [客户/服务端模式](#%E5%AE%A2%E6%88%B7%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%A8%A1%E5%BC%8F)
+    - [send函数](#send%E5%87%BD%E6%95%B0)
+    - [recv函数](#recv%E5%87%BD%E6%95%B0)
+    - [程序退出时先关闭socket](#%E7%A8%8B%E5%BA%8F%E9%80%80%E5%87%BA%E6%97%B6%E5%85%88%E5%85%B3%E9%97%ADsocket)
+    - [socket函数](#socket%E5%87%BD%E6%95%B0)
+    - [bind函数](#bind%E5%87%BD%E6%95%B0)
+    - [listen函数](#listen%E5%87%BD%E6%95%B0)
+    - [accept函数](#accept%E5%87%BD%E6%95%B0)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # Socket 
 ![](.socket_images/socket.png)
 socket就是插座（中文翻译成套接字有点莫名其妙），运行在计算机中的两个程序通过socket建立起一个通道，数据在通道中传输。
