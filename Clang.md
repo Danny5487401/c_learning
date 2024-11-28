@@ -1,4 +1,6 @@
-# LLVM（Low Level Virtual Machine虚拟机）
+# LLVM（Low Level Virtual Machine 虚拟机）
+
+> The name "LLVM" itself is not an acronym; it is the full name of the project.
 
 ![](.Clang_images/llvm_structure.png)
 
@@ -32,7 +34,7 @@ LLVM 设计的最重要方面是，使用通用的代码表示形式 (IR)，它�
 
 ![](.Clang_images/ios_structure.png)
 
-ObjectiveC/C/C++ 使用的编译器前端是 Clang，Swift 是Swift，后端都是 LLVM。
+ObjectiveC/C/C++ 使用的编译器前端是 Clang，Swift，后端都是 LLVM。
 
 ## Clang
 
@@ -69,3 +71,4 @@ InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 ## 参考资料
 
 1. [LLVM 的介绍及编译流程分析](https://juejin.cn/post/7003244900401545247)
+2. [2022-07-28 Go语言链接器简介](https://talkgo.org/t/topic/4043)
