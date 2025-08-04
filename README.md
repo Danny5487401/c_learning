@@ -7,6 +7,7 @@
   - [第一章 c 语言学习](#%E7%AC%AC%E4%B8%80%E7%AB%A0-c-%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0)
   - [第二章 c++语言学习](#%E7%AC%AC%E4%BA%8C%E7%AB%A0-c%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0)
   - [编译器](#%E7%BC%96%E8%AF%91%E5%99%A8)
+  - [cmake](#cmake)
   - [参考](#%E5%8F%82%E8%80%83)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -46,7 +47,7 @@
 - 16 stdio.h 输入输出
 
 ## [第二章 c++语言学习](02_c++_code/c++.md)
-
+note: 推荐指定C++版本编译 -std=c++11
 - [1 Function Overloading函数重载](02_02_c++_code/01_func/func_reload.md)
 - [2 类和对象](02_c++_code/02_class_n_object/class.md)
     - [2.1 C++结构体相对C新特性](02_c++_code/02_class_n_object/method.cpp)
@@ -73,7 +74,7 @@
 - 2 [GCC (GNU Compiler Collection)](gcc.md)
 - 3 MSVC (Microsoft Visual C++)：微软开发的编译器，通常与Visual Studio集成
 
-
+## [cmake](cmake.md)
 
 
 ## 参考

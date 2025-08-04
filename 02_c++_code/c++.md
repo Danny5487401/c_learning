@@ -2,15 +2,17 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [C++程序的命名规则](#c%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99)
-- [C++程序的编译](#c%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%BC%96%E8%AF%91)
-- [C++布尔类型（bool）](#c%E5%B8%83%E5%B0%94%E7%B1%BB%E5%9E%8Bbool)
-- [C++函数的缺省参数](#c%E5%87%BD%E6%95%B0%E7%9A%84%E7%BC%BA%E7%9C%81%E5%8F%82%E6%95%B0)
-- [C++动态内存管理](#c%E5%8A%A8%E6%80%81%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86)
+- [C++](#c)
+  - [C++程序的命名规则](#c%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%91%BD%E5%90%8D%E8%A7%84%E5%88%99)
+  - [C++程序的编译](#c%E7%A8%8B%E5%BA%8F%E7%9A%84%E7%BC%96%E8%AF%91)
+  - [C++布尔类型（bool）](#c%E5%B8%83%E5%B0%94%E7%B1%BB%E5%9E%8Bbool)
+  - [C++函数的缺省参数](#c%E5%87%BD%E6%95%B0%E7%9A%84%E7%BC%BA%E7%9C%81%E5%8F%82%E6%95%B0)
+  - [C++动态内存管理](#c%E5%8A%A8%E6%80%81%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86)
+  - [参考](#%E5%8F%82%E8%80%83)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-C++
+# C++
 C++读作“C加加”，是“C Plus Plus”的简称，C++ 是在C语言的基础上增加新特性，从语法上看，C语言是 C++ 的一部分，C语言代码几乎不用修改就能够以 C++ 的方式编译。
 
 
@@ -59,4 +61,14 @@ enbuffer参数表示是否启用缓冲区，writetofile函数被调用的时候�
 
 在C++中，这两个函数仍然可以使用，但是C++又新增了两个关键字，new 和 delete，new 用来动态分配内存，delete 用来释放内存。
 
-和C语言的动态内存管理一样，C++动态内存管理的应用场景不多
+- new 和 delete 操作的区域是 free store,但 new 和 delete 通常底层使用 malloc 和 free 来实现
+- malloc 和 free 操作的区域是 heap
+
+
+和C语言的动态内存管理一样，C++动态内存管理的应用场景不多.
+
+RAII(Resource Acquisition Is Initialization) 依托栈和析构函数，来对所有的资源——包括堆内存在内——进行管理。
+
+
+## 参考
+

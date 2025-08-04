@@ -76,7 +76,7 @@ Clang 大致可以对应到编译器的前端，主要处理一些和具体机�
 版本
 
 ```shell
-➜  17_file_info git:(main) ✗ clang --version
+➜  ✗ clang --version
 Apple clang version 13.1.6 (clang-1316.0.21.2.5)
 Target: arm64-apple-darwin21.6.0
 Thread model: posix
