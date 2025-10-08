@@ -111,6 +111,32 @@ target_link_libraries(demo math)
 ```
 
 
+### configure_file
+
+将一个文件(由input参数指定)拷贝到指定位置(由output参数指定)，并根据options修改其内容。
+```cmake
+# config.h.in
+
+#cmakedefine var1
+#cmakedefine var2 "@var2@" #注意：@@之间的名称要与cmakedefine后的变量名一样
+#cmakedefine var3 "${var3}" #注意：${}之间的名称要与cmakedefine后的变量名一样
+#ifdef _@var4@_${var5}_
+#endif
+```
+```cmake
+# CMakeLists.txt
+cmake_mininum_required(VERSION 2.8)
+project (configure_file_test)
+option (var1 "use var1..." ON)  #定义var1，也可以使用cmake -Dvar1=ON替代
+set (var2 13) #指定var2的值
+set (var3 "var3string") #指定var3的值
+set (var4 "VARTEST4")
+set (var5 "VARTEST5")
+
+configure_file (config.h.in config.h)
+```
+
+
 ## 参考
 
 - [新手入门学习cmake](https://zhuanlan.zhihu.com/p/690938516)

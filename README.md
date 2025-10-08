@@ -19,6 +19,7 @@
 注意 ⚠️：**_中文注释乱码时，设置 vscode:files.autoGuessEncoding 项的值改为 true 即可，数据结构中推荐编码格式为 GBK_**
 
 
+
 ## 经典语句
 
 1. 在中国，没有纯C程序员，如果他不会C++，不是他对C有多么执着，可能是不会C++。嵌入式开发可能是个例外，可能还有其它只能用C不能用C++的场景。
@@ -44,6 +45,9 @@
 - [12 库的生成](01_c_code/12_lib/lib.md)
     - [12.1 静态库.a](01_c_code/12_lib/01_static_lib/main.c)
     - [12.2 动态库.so](01_c_code/12_lib/02_dynamic_lib/main.c)
+- 13 线程
+- 14 mutex
+- 15 conditional 
 - 16 stdio.h 输入输出
 
 ## [第二章 c++语言学习](02_c++_code/c++.md)

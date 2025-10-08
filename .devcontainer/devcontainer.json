@@ -1,0 +1,14 @@
+{
+    "name": "C/C++ Development Container",
+    "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu-24.04",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools"
+    ],
+    "forwardPorts": [],
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y build-essential gdb cmake",
+    "remoteUser": "vscode"
+}

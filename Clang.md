@@ -83,7 +83,47 @@ Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
 ```
 
+cilium 中使用
+```text
+time="2025-09-26T15:23:12Z" level=debug msg="Launching compiler" args="[-I/var/run/cilium/state/globals -I/var/run/cilium/state
+ -I/var/lib/cilium/bpf -I/var/lib/cilium/bpf/include -g -O2 --target=bpf -std=gnu89 -nostdinc -D__NR_CPUS__=64
+  -Wall -Wextra -Werror -Wshadow -Wno-address-of-packed-member -Wno-unknown-warning-option -Wno-gnu-variable-sized-type-not-at-end
+  -Wdeclaration-after-statement -Wimplicit-int-conversion -Wenum-conversion -mcpu=v3 -c /var/lib/cilium/bpf/bpf_alignchecker.c -o -]" subsys=datapath-loader target=clang
+```
+
+
+-I<directory>: Add the specified directory to the search path for include files. 将指定的目录添加到包含文件的搜索路径中
+
+-g: Generate debug information. 生成 debug 信息。
+
+-O0, -O1, -O2, -O3, -Ofast, -Os, -Oz, -Og, -O, -O4 Specify which optimization level to use: 指定要使用的优化级别：
+
+-std=<standard>: Specify the language standard to compile for. 指定要编译的语言标准。
+
+-D<macroname>=<value>: Adds an implicit #define into the predefines buffer which is read before the source file is preprocessed. 将隐式 #define 添加到预定义缓冲区中，该缓冲区在预处理源文件之前读取. 定义宏 __NR_CPUS__ 为 64，告诉 BPF 程序最多支持 64 CPU。
+
+-Wa,<args>: Pass the comma separated arguments in args to the assembler. 将 args 中逗号分隔的参数传递给 assembler（汇编器）。
+
+-Wl,<args>: Pass the comma separated arguments in args to the linker. 将 args 中以逗号分隔的参数传递给 linker（链接器）。
+
+-Wp,<args>: Pass the comma separated arguments in args to the preprocessor. 将 args 中逗号分隔的参数传递给 preprocessor（预处理器）。
+
+-mcpu=?, -mtune=?: Acts as an alias for --print-supported-cpus
+
+-nostdinc: Do not search the standard system directories or compiler builtin directories for include files. 不使用系统自带的标准头文件目录（/usr/include），避免引入与内核/eBPF 不兼容的 libc 头文件。
+
+--print-supported-cpus: Print out a list of supported processors for the given target (specified through --target=<architecture> or -arch <architecture>). If no target is specified, the system default target will be used. 打印出给定 target 的受支持处理器列表。（通过 --target=<architecture> 或 -arch<architecture> 指定 target）如果未指定 target，则将使用系统默认 target。
+
+
+
+
+
+
+
+
+
 ## 参考资料
 
-1. [LLVM 的介绍及编译流程分析](https://juejin.cn/post/7003244900401545247)
-2. [2022-07-28 Go语言链接器简介](https://talkgo.org/t/topic/4043)
+- [LLVM 的介绍及编译流程分析](https://juejin.cn/post/7003244900401545247)
+- [2022-07-28 Go语言链接器简介](https://talkgo.org/t/topic/4043)
+- [浅学 Clang（一）：clang 指令介绍](https://juejin.cn/post/7102477449421652005)
